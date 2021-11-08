@@ -1,0 +1,220 @@
+\begin{thebibliography}{10}
+
+\bibitem{Candelas:1985en}
+P.~Candelas, Gary~T. Horowitz, Andrew Strominger, and Edward Witten.
+\newblock {Vacuum Configurations for Superstrings}.
+\newblock {\em Nucl. Phys.}, B258:46--74, 1985.
+
+\bibitem{Aspinwall:1993nu}
+Paul~S. Aspinwall, Brian~R. Greene, and David~R. Morrison.
+\newblock {Calabi-Yau moduli space, mirror manifolds and space-time topology
+  change in string theory}.
+\newblock {\em Nucl. Phys.}, B416:414--480, 1994.
+\newblock [AMS/IP Stud. Adv. Math.1,213(1996)].
+
+\bibitem{Strominger:1995cz}
+Andrew Strominger.
+\newblock {Massless black holes and conifolds in string theory}.
+\newblock {\em Nucl. Phys.}, B451:96--108, 1995.
+
+\bibitem{Dasgupta:1999ss}
+Keshav Dasgupta, Govindan Rajesh, and Savdeep Sethi.
+\newblock {M theory, orientifolds and G - flux}.
+\newblock {\em JHEP}, 08:023, 1999.
+
+\bibitem{Giddings:2001yu}
+Steven~B. Giddings, Shamit Kachru, and Joseph Polchinski.
+\newblock {Hierarchies from fluxes in string compactifications}.
+\newblock {\em Phys. Rev.}, D66:106006, 2002.
+
+\bibitem{Bousso:2000xa}
+Raphael Bousso and Joseph Polchinski.
+\newblock {Quantization of four form fluxes and dynamical neutralization of the
+  cosmological constant}.
+\newblock {\em JHEP}, 06:006, 2000.
+
+\bibitem{Douglas:2003um}
+Michael~R. Douglas.
+\newblock {The Statistics of string / M theory vacua}.
+\newblock {\em JHEP}, 05:046, 2003.
+
+\bibitem{Carifio:2017nyb}
+Jonathan Carifio, William~J. Cunningham, James Halverson, Dmitri Krioukov, Cody
+  Long, and Brent~D. Nelson.
+\newblock {Vacuum Selection from Cosmology on Networks of String Geometries}.
+\newblock {\em Phys. Rev. Lett.}, 121(10):101602, 2018.
+
+\bibitem{Halverson:2017ffz}
+James Halverson, Cody Long, and Benjamin Sung.
+\newblock {Algorithmic universality in F-theory compactifications}.
+\newblock {\em Phys. Rev.}, D96(12):126006, 2017.
+
+\bibitem{Garriga:2005av}
+Jaume Garriga, Delia Schwartz-Perlov, Alexander Vilenkin, and Sergei Winitzki.
+\newblock {Probabilities in the inflationary multiverse}.
+\newblock {\em JCAP}, 0601:017, 2006.
+
+\bibitem{Ashok:2003gk}
+Sujay Ashok and Michael~R. Douglas.
+\newblock {Counting flux vacua}.
+\newblock {\em JHEP}, 01:060, 2004.
+
+\bibitem{Denef:2004ze}
+Frederik Denef and Michael~R. Douglas.
+\newblock {Distributions of flux vacua}.
+\newblock {\em JHEP}, 05:072, 2004.
+
+\bibitem{Taylor:2015xtz}
+Washington Taylor and Yi-Nan Wang.
+\newblock {The F-theory geometry with most flux vacua}.
+\newblock {\em JHEP}, 12:164, 2015.
+
+\bibitem{Taylor:2015ppa}
+Washington Taylor and Yi-Nan Wang.
+\newblock {A Monte Carlo exploration of threefold base geometries for 4d
+  F-theory vacua}.
+\newblock {\em JHEP}, 01:137, 2016.
+
+\bibitem{Taylor:2017yqr}
+Washington Taylor and Yi-Nan Wang.
+\newblock {Scanning the skeleton of the 4D F-theory landscape}.
+\newblock {\em JHEP}, 01:111, 2018.
+
+\bibitem{Denef:2006ad}
+Frederik Denef and Michael~R. Douglas.
+\newblock {Computational complexity of the landscape. I.}
+\newblock {\em Annals Phys.}, 322:1096--1142, 2007.
+
+\bibitem{Cvetic:2010ky}
+Mirjam Cvetic, Inaki Garcia-Etxebarria, and James Halverson.
+\newblock {On the computation of non-perturbative effective potentials in the
+  string theory landscape: IIB/F-theory perspective}.
+\newblock {\em Fortsch. Phys.}, 59:243--283, 2011.
+
+\bibitem{Bao:2017thx}
+Ning Bao, Raphael Bousso, Stephen Jordan, and Brad Lackey.
+\newblock {Fast optimization algorithms and the cosmological constant}.
+\newblock {\em Phys. Rev.}, D96(10):103512, 2017.
+
+\bibitem{Denef:2017cxt}
+Frederik Denef, Michael~R. Douglas, Brian Greene, and Claire Zukowski.
+\newblock {Computational complexity of the landscape II—Cosmological
+  considerations}.
+\newblock {\em Annals Phys.}, 392:93--127, 2018.
+
+\bibitem{Halverson:2018cio}
+James Halverson and Fabian Ruehle.
+\newblock {Computational Complexity of Vacua and Near-Vacua in Field and String
+  Theory}.
+\newblock 2018.
+
+\bibitem{1706.02714}
+Yang-Hui He.
+\newblock Deep-learning the landscape, 2017.
+
+\bibitem{Ruehle2017}
+Fabian Ruehle.
+\newblock Evolving neural networks with genetic algorithms to study the string
+  landscape.
+\newblock {\em Journal of High Energy Physics}, 2017(8), aug 2017.
+
+\bibitem{Krefl2017}
+Daniel Krefl and Rak-Kyeong Seong.
+\newblock Machine learning of calabi-yau volumes.
+\newblock {\em Physical Review D}, 96(6), sep 2017.
+
+\bibitem{Carifio2018}
+Jonathan Carifio, William~J. Cunningham, James Halverson, Dmitri Krioukov, Cody
+  Long, and Brent~D. Nelson.
+\newblock Vacuum selection from cosmology on networks of string geometries.
+\newblock {\em Physical Review Letters}, 121(10), sep 2018.
+
+\bibitem{1809.02547}
+Daniel Klaewer and Lorenz Schlechter.
+\newblock Machine learning line bundle cohomologies of hypersurfaces in toric
+  varieties, 2018.
+
+\bibitem{Bull2018}
+Kieran Bull, Yang-Hui He, Vishnu Jejjala, and Challenger Mishra.
+\newblock Machine learning {CICY} threefolds.
+\newblock {\em Physics Letters B}, 785:65--72, oct 2018.
+
+\bibitem{Wang2018}
+Yi-Nan Wang and Zhibai Zhang.
+\newblock Learning non-higgsable gauge groups in 4d f-theory.
+\newblock {\em Journal of High Energy Physics}, 2018(8), aug 2018.
+
+\bibitem{Hashimoto2018}
+Koji Hashimoto, Sotaro Sugishita, Akinori Tanaka, and Akio Tomiya.
+\newblock Deep learning and the {AdS}/{CFT} correspondence.
+\newblock {\em Physical Review D}, 98(4), aug 2018.
+
+\bibitem{Liu2017}
+Junyu Liu.
+\newblock Artificial neural network in cosmic landscape.
+\newblock {\em Journal of High Energy Physics}, 2017(12), dec 2017.
+
+\bibitem{1805.12153}
+Ryusuke Jinno.
+\newblock Machine learning for bounce calculation, 2018.
+
+\bibitem{Kreuzer:2000xy}
+Maximilian Kreuzer and Harald Skarke.
+\newblock {Complete classification of reflexive polyhedra in four-dimensions}.
+\newblock {\em Adv. Theor. Math. Phys.}, 4:1209--1230, 2002.
+
+\bibitem{1610.02995}
+Georg Martius and Christoph~H. Lampert.
+\newblock Extrapolation and learning equations, 2016.
+
+\bibitem{Carifio:2017bov}
+Jonathan Carifio, James Halverson, Dmitri Krioukov, and Brent~D. Nelson.
+\newblock {Machine Learning in the String Landscape}.
+\newblock {\em JHEP}, 09:157, 2017.
+
+\bibitem{Batyrev:1994hm}
+Victor~V. Batyrev.
+\newblock {Dual polyhedra and mirror symmetry for Calabi-Yau hypersurfaces in
+  toric varieties}.
+\newblock {\em J. Alg. Geom.}, 3:493--545, 1994.
+
+\bibitem{Kreuzer:2002uu}
+Maximilian Kreuzer and Harald Skarke.
+\newblock {PALP: A Package for analyzing lattice polytopes with applications to
+  toric geometry}.
+\newblock {\em Comput. Phys. Commun.}, 157:87--106, 2004.
+
+\bibitem{Rambau:TOPCOM-ICMS:2002}
+J{\"o}rg Rambau.
+\newblock {TOPCOM}: Triangulations of point configurations and oriented
+  matroids.
+\newblock In Arjeh~M. Cohen, Xiao-Shan Gao, and Nobuki Takayama, editors, {\em
+  Mathematical Software---ICMS 2002}, pages 330--340. World Scientific, 2002.
+
+\bibitem{Altman:2014bfa}
+Ross Altman, James Gray, Yang-Hui He, Vishnu Jejjala, and Brent~D. Nelson.
+\newblock {A Calabi-Yau Database: Threefolds Constructed from the
+  Kreuzer-Skarke List}.
+\newblock {\em JHEP}, 02:158, 2015.
+
+\bibitem{Long:2014fba}
+Cody Long, Liam McAllister, and Paul McGuirk.
+\newblock {Heavy Tails in Calabi-Yau Moduli Spaces}.
+\newblock {\em JHEP}, 10:187, 2014.
+
+\bibitem{Demirtas:2018akl}
+Mehmet Demirtas, Cody Long, Liam McAllister, and Mike Stillman.
+\newblock {The Kreuzer-Skarke Axiverse}.
+\newblock 2018.
+
+\bibitem{Halverson:2016tve}
+James Halverson and Jiahua Tian.
+\newblock {Cost of seven-brane gauge symmetry in a quadrillion F-theory
+  compactifications}.
+\newblock {\em Phys. Rev.}, D95(2):026005, 2017.
+
+\bibitem{1301.6641}
+Roland Grinis and Alexander Kasprzyk.
+\newblock Normal forms of convex lattice polytopes, 2013.
+
+\end{thebibliography}

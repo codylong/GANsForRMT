@@ -1,0 +1,94 @@
+% Document class
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2.3cm, right=2.3cm, top=2.54cm]{geometry}
+
+% Package imports
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{epstopdf}
+\usepackage{authblk}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usetikzlibrary{positioning}
+\usetikzlibrary{backgrounds}
+
+\newcommand{\jh}[1]{\noindent{\color{blue}\textbf{JH:} #1}}
+\newcommand{\ra}[1]{\noindent{\color{orange}\textbf{RA:} #1}}
+\newcommand{\jc}[1]{\noindent{\color{red}\textbf{JC:} #1}}
+
+% Commands
+\def\GLnZ{$GL(n,\mathbb{Z})$ }
+\def\GLfZ{$GL(4,\mathbb{Z})$ }
+\def\h11{h^{1,1}}
+\def\cpp{C\texttt{++} }
+\def\D491{\Delta^{\circ}_{491}}
+
+\newcommand{\gappeq}{\mathrel{\rlap {\raise.5ex\hbox{$>$}}
+{\lower.5ex\hbox{$\sim$}}}}
+\newcommand{\lappeq}{\mathrel{\rlap{\raise.5ex\hbox{$<$}}
+{\lower.5ex\hbox{$\sim$}}}}
+
+
+
+\title{\textbf{Learning Random Matrix Approximations of String Theory: K\" ahler Metrics}}
+\author[]{James Halverson}
+\author[]{Cody Long}
+
+\date{}
+
+\affil[]{Department of Physics, Northeastern University\\Boston, MA 02115, USA}
+
+\begin{document}
+\maketitle
+
+
+\vspace{1cm}
+
+\begin{abstract}
+We do lots of interesting things.
+ \end{abstract}
+
+\clearpage
+
+
+\tableofcontents
+
+
+%\section{Introduction}
+
+\section{Introduction}
+
+\section{Methods}
+\subsection{Optimization of Bergman Metrics}
+\subsubsection{A brief review of Bergman metrics}
+In the same way that many functions can be well-approximated by a Taylor series,
+ one might hope to find a universal class of metrics that converge to the metrics of interest.
+For K\"ahler metrics, the class of Bergman metrics serve this purpose. It was shown by
+(Tian-Yau-Zelditch) that a Bergman metric can provide an arbitrarily good approximation to
+a given K\"ahler metric, in a fixed K\"ahler class. To review, let us consider a compact K\"ahler
+manifold $M$ with an effective line bundle $L$, such that $L^k$ is ample for some $k > 0$. 
+We consider a basis of sections of $L^k$ of the form $s^\alpha (z^i)$, where the $z^i$ are 
+projective coordinates on $M$. The K\"ahler potential for the Bergman metric takes the form
+\begin{equation}
+k = \mathrm{log}(s_\alpha P_{\alpha \bar{\beta}} \bar{s}_{\bar{\beta}})\, , 
+\end{equation}
+where the matrix $P$ is positive-definite, and therefore can be written as $P = A^\dagger A$. 
+\subsection{New Ensembles from Generative Adversarial Networks}
+
+\section{K\" ahler metrics at fixed Picard Number}
+
+\subsection{$h^{11} = 10$}
+\subsection{$h^{11} = 16$}
+
+\section{Interpolation and Extrapolation in Picard Number}
+
+\section{Discussion}
+
+\clearpage 
+
+
+\end{document}

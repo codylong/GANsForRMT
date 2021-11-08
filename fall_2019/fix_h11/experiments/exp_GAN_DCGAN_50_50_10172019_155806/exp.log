@@ -1,0 +1,1112 @@
+2019-10-17 15:58:06.748142
+Namespace(batch_size=64, dataroot='/home/jim/Documents/RandomBergman/KS4/data/', diff=0, epochs=1000, exp=None, h11=50, log_interval=1, lr=5e-05, lr_D=5e-05, lr_G=5e-05, model_type='GAN_DCGAN', n_critic_steps=5, newsize=40, num_geometries=2500, nz=50, outdir='./experiments/exp_GAN_DCGAN_50_50_10172019_155806', plot_interval=20, py_version=3, save=True, show_plots=False, test_batch_size=10000)
+Namespace(batch_size=64, dataroot='/home/jim/Documents/RandomBergman/KS4/data/', diff=0, epochs=1000, exp=None, h11=50, log_interval=1, lr=5e-05, lr_D=5e-05, lr_G=5e-05, model_type='GAN_DCGAN', n_critic_steps=5, newsize=40, num_geometries=2500, nz=50, outdir='./experiments/exp_GAN_DCGAN_50_50_10172019_155806', plot_interval=20, py_version=3, save=True, show_plots=False, test_batch_size=10000)
+Model type: GAN_DCGAN
+Coomparing to Eigenvalue distribution collected from 3399 geometries
+data: 64 50
+torch.Size([64, 2500])
+Epoch [0/1000], Wasserstein(eigs,real_eigs): 7.254, Wasserstein(log_eigs,log_real_eigs): 0.764
+torch.Size([64, 2500])
+Epoch [1/1000], Wasserstein(eigs,real_eigs): 1060.740, Wasserstein(log_eigs,log_real_eigs): 2.101
+torch.Size([64, 2500])
+Epoch [2/1000], Wasserstein(eigs,real_eigs): 1807.888, Wasserstein(log_eigs,log_real_eigs): 2.328
+torch.Size([64, 2500])
+Epoch [3/1000], Wasserstein(eigs,real_eigs): 1254.425, Wasserstein(log_eigs,log_real_eigs): 2.269
+torch.Size([64, 2500])
+Epoch [4/1000], Wasserstein(eigs,real_eigs): 832.392, Wasserstein(log_eigs,log_real_eigs): 1.974
+torch.Size([64, 2500])
+Epoch [5/1000], Wasserstein(eigs,real_eigs): 949.294, Wasserstein(log_eigs,log_real_eigs): 2.059
+torch.Size([64, 2500])
+Epoch [6/1000], Wasserstein(eigs,real_eigs): 772.489, Wasserstein(log_eigs,log_real_eigs): 1.919
+torch.Size([64, 2500])
+Epoch [7/1000], Wasserstein(eigs,real_eigs): 690.112, Wasserstein(log_eigs,log_real_eigs): 1.910
+torch.Size([64, 2500])
+Epoch [8/1000], Wasserstein(eigs,real_eigs): 669.229, Wasserstein(log_eigs,log_real_eigs): 1.976
+torch.Size([64, 2500])
+Epoch [9/1000], Wasserstein(eigs,real_eigs): 553.220, Wasserstein(log_eigs,log_real_eigs): 1.866
+torch.Size([64, 2500])
+Epoch [10/1000], Wasserstein(eigs,real_eigs): 336.341, Wasserstein(log_eigs,log_real_eigs): 1.686
+torch.Size([64, 2500])
+Epoch [11/1000], Wasserstein(eigs,real_eigs): 381.621, Wasserstein(log_eigs,log_real_eigs): 1.619
+torch.Size([64, 2500])
+Epoch [12/1000], Wasserstein(eigs,real_eigs): 454.596, Wasserstein(log_eigs,log_real_eigs): 1.627
+torch.Size([64, 2500])
+Epoch [13/1000], Wasserstein(eigs,real_eigs): 497.881, Wasserstein(log_eigs,log_real_eigs): 1.861
+torch.Size([64, 2500])
+Epoch [14/1000], Wasserstein(eigs,real_eigs): 484.383, Wasserstein(log_eigs,log_real_eigs): 1.746
+torch.Size([64, 2500])
+Epoch [15/1000], Wasserstein(eigs,real_eigs): 477.329, Wasserstein(log_eigs,log_real_eigs): 1.789
+torch.Size([64, 2500])
+Epoch [16/1000], Wasserstein(eigs,real_eigs): 396.127, Wasserstein(log_eigs,log_real_eigs): 1.724
+torch.Size([64, 2500])
+Epoch [17/1000], Wasserstein(eigs,real_eigs): 433.735, Wasserstein(log_eigs,log_real_eigs): 1.679
+torch.Size([64, 2500])
+Epoch [18/1000], Wasserstein(eigs,real_eigs): 396.952, Wasserstein(log_eigs,log_real_eigs): 1.748
+torch.Size([64, 2500])
+Epoch [19/1000], Wasserstein(eigs,real_eigs): 280.697, Wasserstein(log_eigs,log_real_eigs): 1.584
+torch.Size([64, 2500])
+Epoch [20/1000], Wasserstein(eigs,real_eigs): 262.847, Wasserstein(log_eigs,log_real_eigs): 1.492
+torch.Size([64, 2500])
+Epoch [21/1000], Wasserstein(eigs,real_eigs): 556.007, Wasserstein(log_eigs,log_real_eigs): 1.898
+torch.Size([64, 2500])
+Epoch [22/1000], Wasserstein(eigs,real_eigs): 810.631, Wasserstein(log_eigs,log_real_eigs): 1.917
+torch.Size([64, 2500])
+Epoch [23/1000], Wasserstein(eigs,real_eigs): 729.786, Wasserstein(log_eigs,log_real_eigs): 1.992
+torch.Size([64, 2500])
+Epoch [24/1000], Wasserstein(eigs,real_eigs): 526.735, Wasserstein(log_eigs,log_real_eigs): 1.849
+torch.Size([64, 2500])
+Epoch [25/1000], Wasserstein(eigs,real_eigs): 254.843, Wasserstein(log_eigs,log_real_eigs): 1.576
+torch.Size([64, 2500])
+Epoch [26/1000], Wasserstein(eigs,real_eigs): 313.062, Wasserstein(log_eigs,log_real_eigs): 1.616
+torch.Size([64, 2500])
+Epoch [27/1000], Wasserstein(eigs,real_eigs): 447.973, Wasserstein(log_eigs,log_real_eigs): 1.798
+torch.Size([64, 2500])
+Epoch [28/1000], Wasserstein(eigs,real_eigs): 252.343, Wasserstein(log_eigs,log_real_eigs): 1.601
+torch.Size([64, 2500])
+Epoch [29/1000], Wasserstein(eigs,real_eigs): 473.140, Wasserstein(log_eigs,log_real_eigs): 1.753
+torch.Size([64, 2500])
+Epoch [30/1000], Wasserstein(eigs,real_eigs): 476.906, Wasserstein(log_eigs,log_real_eigs): 1.764
+torch.Size([64, 2500])
+Epoch [31/1000], Wasserstein(eigs,real_eigs): 286.766, Wasserstein(log_eigs,log_real_eigs): 1.629
+torch.Size([64, 2500])
+Epoch [32/1000], Wasserstein(eigs,real_eigs): 254.123, Wasserstein(log_eigs,log_real_eigs): 1.541
+torch.Size([64, 2500])
+Epoch [33/1000], Wasserstein(eigs,real_eigs): 500.410, Wasserstein(log_eigs,log_real_eigs): 1.771
+torch.Size([64, 2500])
+Epoch [34/1000], Wasserstein(eigs,real_eigs): 280.255, Wasserstein(log_eigs,log_real_eigs): 1.639
+torch.Size([64, 2500])
+Epoch [35/1000], Wasserstein(eigs,real_eigs): 682.491, Wasserstein(log_eigs,log_real_eigs): 1.878
+torch.Size([64, 2500])
+Epoch [36/1000], Wasserstein(eigs,real_eigs): 280.560, Wasserstein(log_eigs,log_real_eigs): 1.554
+torch.Size([64, 2500])
+Epoch [37/1000], Wasserstein(eigs,real_eigs): 443.767, Wasserstein(log_eigs,log_real_eigs): 1.646
+torch.Size([64, 2500])
+Epoch [38/1000], Wasserstein(eigs,real_eigs): 288.619, Wasserstein(log_eigs,log_real_eigs): 1.628
+torch.Size([64, 2500])
+Epoch [39/1000], Wasserstein(eigs,real_eigs): 429.879, Wasserstein(log_eigs,log_real_eigs): 1.720
+torch.Size([64, 2500])
+Epoch [40/1000], Wasserstein(eigs,real_eigs): 221.880, Wasserstein(log_eigs,log_real_eigs): 1.515
+torch.Size([64, 2500])
+Epoch [41/1000], Wasserstein(eigs,real_eigs): 604.353, Wasserstein(log_eigs,log_real_eigs): 1.929
+torch.Size([64, 2500])
+Epoch [42/1000], Wasserstein(eigs,real_eigs): 291.662, Wasserstein(log_eigs,log_real_eigs): 1.594
+torch.Size([64, 2500])
+Epoch [43/1000], Wasserstein(eigs,real_eigs): 610.634, Wasserstein(log_eigs,log_real_eigs): 1.931
+torch.Size([64, 2500])
+Epoch [44/1000], Wasserstein(eigs,real_eigs): 413.613, Wasserstein(log_eigs,log_real_eigs): 1.702
+torch.Size([64, 2500])
+Epoch [45/1000], Wasserstein(eigs,real_eigs): 445.451, Wasserstein(log_eigs,log_real_eigs): 1.757
+torch.Size([64, 2500])
+Epoch [46/1000], Wasserstein(eigs,real_eigs): 477.007, Wasserstein(log_eigs,log_real_eigs): 1.740
+torch.Size([64, 2500])
+Epoch [47/1000], Wasserstein(eigs,real_eigs): 479.751, Wasserstein(log_eigs,log_real_eigs): 1.837
+torch.Size([64, 2500])
+Epoch [48/1000], Wasserstein(eigs,real_eigs): 502.633, Wasserstein(log_eigs,log_real_eigs): 1.927
+torch.Size([64, 2500])
+Epoch [49/1000], Wasserstein(eigs,real_eigs): 495.097, Wasserstein(log_eigs,log_real_eigs): 1.759
+torch.Size([64, 2500])
+Epoch [50/1000], Wasserstein(eigs,real_eigs): 531.586, Wasserstein(log_eigs,log_real_eigs): 1.900
+torch.Size([64, 2500])
+Epoch [51/1000], Wasserstein(eigs,real_eigs): 875.992, Wasserstein(log_eigs,log_real_eigs): 2.018
+torch.Size([64, 2500])
+Epoch [52/1000], Wasserstein(eigs,real_eigs): 785.466, Wasserstein(log_eigs,log_real_eigs): 1.936
+torch.Size([64, 2500])
+Epoch [53/1000], Wasserstein(eigs,real_eigs): 651.603, Wasserstein(log_eigs,log_real_eigs): 1.946
+torch.Size([64, 2500])
+Epoch [54/1000], Wasserstein(eigs,real_eigs): 613.049, Wasserstein(log_eigs,log_real_eigs): 1.799
+torch.Size([64, 2500])
+Epoch [55/1000], Wasserstein(eigs,real_eigs): 629.172, Wasserstein(log_eigs,log_real_eigs): 1.903
+torch.Size([64, 2500])
+Epoch [56/1000], Wasserstein(eigs,real_eigs): 1039.971, Wasserstein(log_eigs,log_real_eigs): 2.107
+torch.Size([64, 2500])
+Epoch [57/1000], Wasserstein(eigs,real_eigs): 1059.092, Wasserstein(log_eigs,log_real_eigs): 2.134
+torch.Size([64, 2500])
+Epoch [58/1000], Wasserstein(eigs,real_eigs): 959.820, Wasserstein(log_eigs,log_real_eigs): 2.100
+torch.Size([64, 2500])
+Epoch [59/1000], Wasserstein(eigs,real_eigs): 1391.011, Wasserstein(log_eigs,log_real_eigs): 2.301
+torch.Size([64, 2500])
+Epoch [60/1000], Wasserstein(eigs,real_eigs): 1615.692, Wasserstein(log_eigs,log_real_eigs): 2.368
+torch.Size([64, 2500])
+Epoch [61/1000], Wasserstein(eigs,real_eigs): 1970.854, Wasserstein(log_eigs,log_real_eigs): 2.422
+torch.Size([64, 2500])
+Epoch [62/1000], Wasserstein(eigs,real_eigs): 1829.727, Wasserstein(log_eigs,log_real_eigs): 2.482
+torch.Size([64, 2500])
+Epoch [63/1000], Wasserstein(eigs,real_eigs): 1786.251, Wasserstein(log_eigs,log_real_eigs): 2.344
+torch.Size([64, 2500])
+Epoch [64/1000], Wasserstein(eigs,real_eigs): 1304.813, Wasserstein(log_eigs,log_real_eigs): 2.249
+torch.Size([64, 2500])
+Epoch [65/1000], Wasserstein(eigs,real_eigs): 1525.668, Wasserstein(log_eigs,log_real_eigs): 2.372
+torch.Size([64, 2500])
+Epoch [66/1000], Wasserstein(eigs,real_eigs): 2605.679, Wasserstein(log_eigs,log_real_eigs): 2.597
+torch.Size([64, 2500])
+Epoch [67/1000], Wasserstein(eigs,real_eigs): 1750.271, Wasserstein(log_eigs,log_real_eigs): 2.357
+torch.Size([64, 2500])
+Epoch [68/1000], Wasserstein(eigs,real_eigs): 2368.153, Wasserstein(log_eigs,log_real_eigs): 2.526
+torch.Size([64, 2500])
+Epoch [69/1000], Wasserstein(eigs,real_eigs): 1800.718, Wasserstein(log_eigs,log_real_eigs): 2.411
+torch.Size([64, 2500])
+Epoch [70/1000], Wasserstein(eigs,real_eigs): 2262.942, Wasserstein(log_eigs,log_real_eigs): 2.446
+torch.Size([64, 2500])
+Epoch [71/1000], Wasserstein(eigs,real_eigs): 2896.011, Wasserstein(log_eigs,log_real_eigs): 2.519
+torch.Size([64, 2500])
+Epoch [72/1000], Wasserstein(eigs,real_eigs): 2054.814, Wasserstein(log_eigs,log_real_eigs): 2.530
+torch.Size([64, 2500])
+Epoch [73/1000], Wasserstein(eigs,real_eigs): 1644.679, Wasserstein(log_eigs,log_real_eigs): 2.380
+torch.Size([64, 2500])
+Epoch [74/1000], Wasserstein(eigs,real_eigs): 2663.341, Wasserstein(log_eigs,log_real_eigs): 2.649
+torch.Size([64, 2500])
+Epoch [75/1000], Wasserstein(eigs,real_eigs): 2250.853, Wasserstein(log_eigs,log_real_eigs): 2.586
+torch.Size([64, 2500])
+Epoch [76/1000], Wasserstein(eigs,real_eigs): 2136.454, Wasserstein(log_eigs,log_real_eigs): 2.521
+torch.Size([64, 2500])
+Epoch [77/1000], Wasserstein(eigs,real_eigs): 2536.140, Wasserstein(log_eigs,log_real_eigs): 2.589
+torch.Size([64, 2500])
+Epoch [78/1000], Wasserstein(eigs,real_eigs): 2804.190, Wasserstein(log_eigs,log_real_eigs): 2.524
+torch.Size([64, 2500])
+Epoch [79/1000], Wasserstein(eigs,real_eigs): 2790.527, Wasserstein(log_eigs,log_real_eigs): 2.563
+torch.Size([64, 2500])
+Epoch [80/1000], Wasserstein(eigs,real_eigs): 2220.467, Wasserstein(log_eigs,log_real_eigs): 2.455
+torch.Size([64, 2500])
+Epoch [81/1000], Wasserstein(eigs,real_eigs): 2904.339, Wasserstein(log_eigs,log_real_eigs): 2.607
+torch.Size([64, 2500])
+Epoch [82/1000], Wasserstein(eigs,real_eigs): 3599.311, Wasserstein(log_eigs,log_real_eigs): 2.795
+torch.Size([64, 2500])
+Epoch [83/1000], Wasserstein(eigs,real_eigs): 5057.018, Wasserstein(log_eigs,log_real_eigs): 2.979
+torch.Size([64, 2500])
+Epoch [84/1000], Wasserstein(eigs,real_eigs): 4274.389, Wasserstein(log_eigs,log_real_eigs): 2.860
+torch.Size([64, 2500])
+Epoch [85/1000], Wasserstein(eigs,real_eigs): 4740.022, Wasserstein(log_eigs,log_real_eigs): 2.898
+torch.Size([64, 2500])
+Epoch [86/1000], Wasserstein(eigs,real_eigs): 3932.619, Wasserstein(log_eigs,log_real_eigs): 2.860
+torch.Size([64, 2500])
+Epoch [87/1000], Wasserstein(eigs,real_eigs): 6371.042, Wasserstein(log_eigs,log_real_eigs): 3.018
+torch.Size([64, 2500])
+Epoch [88/1000], Wasserstein(eigs,real_eigs): 6482.557, Wasserstein(log_eigs,log_real_eigs): 2.973
+torch.Size([64, 2500])
+Epoch [89/1000], Wasserstein(eigs,real_eigs): 7749.280, Wasserstein(log_eigs,log_real_eigs): 3.155
+torch.Size([64, 2500])
+Epoch [90/1000], Wasserstein(eigs,real_eigs): 8760.490, Wasserstein(log_eigs,log_real_eigs): 3.241
+torch.Size([64, 2500])
+Epoch [91/1000], Wasserstein(eigs,real_eigs): 9488.644, Wasserstein(log_eigs,log_real_eigs): 3.273
+torch.Size([64, 2500])
+Epoch [92/1000], Wasserstein(eigs,real_eigs): 9226.726, Wasserstein(log_eigs,log_real_eigs): 3.236
+torch.Size([64, 2500])
+Epoch [93/1000], Wasserstein(eigs,real_eigs): 8882.772, Wasserstein(log_eigs,log_real_eigs): 3.247
+torch.Size([64, 2500])
+Epoch [94/1000], Wasserstein(eigs,real_eigs): 7739.964, Wasserstein(log_eigs,log_real_eigs): 3.105
+torch.Size([64, 2500])
+Epoch [95/1000], Wasserstein(eigs,real_eigs): 9143.764, Wasserstein(log_eigs,log_real_eigs): 3.251
+torch.Size([64, 2500])
+Epoch [96/1000], Wasserstein(eigs,real_eigs): 11556.776, Wasserstein(log_eigs,log_real_eigs): 3.380
+torch.Size([64, 2500])
+Epoch [97/1000], Wasserstein(eigs,real_eigs): 12891.350, Wasserstein(log_eigs,log_real_eigs): 3.415
+torch.Size([64, 2500])
+Epoch [98/1000], Wasserstein(eigs,real_eigs): 17435.425, Wasserstein(log_eigs,log_real_eigs): 3.540
+torch.Size([64, 2500])
+Epoch [99/1000], Wasserstein(eigs,real_eigs): 13080.002, Wasserstein(log_eigs,log_real_eigs): 3.431
+torch.Size([64, 2500])
+Epoch [100/1000], Wasserstein(eigs,real_eigs): 13630.863, Wasserstein(log_eigs,log_real_eigs): 3.485
+torch.Size([64, 2500])
+Epoch [101/1000], Wasserstein(eigs,real_eigs): 11189.792, Wasserstein(log_eigs,log_real_eigs): 3.360
+torch.Size([64, 2500])
+Epoch [102/1000], Wasserstein(eigs,real_eigs): 12890.094, Wasserstein(log_eigs,log_real_eigs): 3.377
+torch.Size([64, 2500])
+Epoch [103/1000], Wasserstein(eigs,real_eigs): 11876.636, Wasserstein(log_eigs,log_real_eigs): 3.367
+torch.Size([64, 2500])
+Epoch [104/1000], Wasserstein(eigs,real_eigs): 11028.274, Wasserstein(log_eigs,log_real_eigs): 3.323
+torch.Size([64, 2500])
+Epoch [105/1000], Wasserstein(eigs,real_eigs): 12671.184, Wasserstein(log_eigs,log_real_eigs): 3.397
+torch.Size([64, 2500])
+Epoch [106/1000], Wasserstein(eigs,real_eigs): 16243.839, Wasserstein(log_eigs,log_real_eigs): 3.517
+torch.Size([64, 2500])
+Epoch [107/1000], Wasserstein(eigs,real_eigs): 15297.104, Wasserstein(log_eigs,log_real_eigs): 3.481
+torch.Size([64, 2500])
+Epoch [108/1000], Wasserstein(eigs,real_eigs): 15323.624, Wasserstein(log_eigs,log_real_eigs): 3.511
+torch.Size([64, 2500])
+Epoch [109/1000], Wasserstein(eigs,real_eigs): 14251.775, Wasserstein(log_eigs,log_real_eigs): 3.480
+torch.Size([64, 2500])
+Epoch [110/1000], Wasserstein(eigs,real_eigs): 15856.302, Wasserstein(log_eigs,log_real_eigs): 3.524
+torch.Size([64, 2500])
+Epoch [111/1000], Wasserstein(eigs,real_eigs): 18285.744, Wasserstein(log_eigs,log_real_eigs): 3.640
+torch.Size([64, 2500])
+Epoch [112/1000], Wasserstein(eigs,real_eigs): 15266.724, Wasserstein(log_eigs,log_real_eigs): 3.623
+torch.Size([64, 2500])
+Epoch [113/1000], Wasserstein(eigs,real_eigs): 13670.211, Wasserstein(log_eigs,log_real_eigs): 3.592
+torch.Size([64, 2500])
+Epoch [114/1000], Wasserstein(eigs,real_eigs): 10864.540, Wasserstein(log_eigs,log_real_eigs): 3.373
+torch.Size([64, 2500])
+Epoch [115/1000], Wasserstein(eigs,real_eigs): 7894.221, Wasserstein(log_eigs,log_real_eigs): 3.236
+torch.Size([64, 2500])
+Epoch [116/1000], Wasserstein(eigs,real_eigs): 6416.423, Wasserstein(log_eigs,log_real_eigs): 3.161
+torch.Size([64, 2500])
+Epoch [117/1000], Wasserstein(eigs,real_eigs): 7595.650, Wasserstein(log_eigs,log_real_eigs): 3.210
+torch.Size([64, 2500])
+Epoch [118/1000], Wasserstein(eigs,real_eigs): 14004.079, Wasserstein(log_eigs,log_real_eigs): 3.483
+torch.Size([64, 2500])
+Epoch [119/1000], Wasserstein(eigs,real_eigs): 14254.303, Wasserstein(log_eigs,log_real_eigs): 3.563
+torch.Size([64, 2500])
+Epoch [120/1000], Wasserstein(eigs,real_eigs): 16287.710, Wasserstein(log_eigs,log_real_eigs): 3.638
+torch.Size([64, 2500])
+Epoch [121/1000], Wasserstein(eigs,real_eigs): 22583.452, Wasserstein(log_eigs,log_real_eigs): 3.694
+torch.Size([64, 2500])
+Epoch [122/1000], Wasserstein(eigs,real_eigs): 31081.046, Wasserstein(log_eigs,log_real_eigs): 3.834
+torch.Size([64, 2500])
+Epoch [123/1000], Wasserstein(eigs,real_eigs): 37274.578, Wasserstein(log_eigs,log_real_eigs): 3.906
+torch.Size([64, 2500])
+Epoch [124/1000], Wasserstein(eigs,real_eigs): 34303.633, Wasserstein(log_eigs,log_real_eigs): 3.872
+torch.Size([64, 2500])
+Epoch [125/1000], Wasserstein(eigs,real_eigs): 33585.859, Wasserstein(log_eigs,log_real_eigs): 3.846
+torch.Size([64, 2500])
+Epoch [126/1000], Wasserstein(eigs,real_eigs): 40545.139, Wasserstein(log_eigs,log_real_eigs): 4.061
+torch.Size([64, 2500])
+Epoch [127/1000], Wasserstein(eigs,real_eigs): 42736.657, Wasserstein(log_eigs,log_real_eigs): 3.969
+torch.Size([64, 2500])
+Epoch [128/1000], Wasserstein(eigs,real_eigs): 35053.306, Wasserstein(log_eigs,log_real_eigs): 3.931
+torch.Size([64, 2500])
+Epoch [129/1000], Wasserstein(eigs,real_eigs): 28837.039, Wasserstein(log_eigs,log_real_eigs): 3.692
+torch.Size([64, 2500])
+Epoch [130/1000], Wasserstein(eigs,real_eigs): 21535.932, Wasserstein(log_eigs,log_real_eigs): 3.650
+torch.Size([64, 2500])
+Epoch [131/1000], Wasserstein(eigs,real_eigs): 22198.806, Wasserstein(log_eigs,log_real_eigs): 3.679
+torch.Size([64, 2500])
+Epoch [132/1000], Wasserstein(eigs,real_eigs): 24313.330, Wasserstein(log_eigs,log_real_eigs): 3.672
+torch.Size([64, 2500])
+Epoch [133/1000], Wasserstein(eigs,real_eigs): 20123.794, Wasserstein(log_eigs,log_real_eigs): 3.620
+torch.Size([64, 2500])
+Epoch [134/1000], Wasserstein(eigs,real_eigs): 23693.561, Wasserstein(log_eigs,log_real_eigs): 3.705
+torch.Size([64, 2500])
+Epoch [135/1000], Wasserstein(eigs,real_eigs): 22635.214, Wasserstein(log_eigs,log_real_eigs): 3.732
+torch.Size([64, 2500])
+Epoch [136/1000], Wasserstein(eigs,real_eigs): 23724.023, Wasserstein(log_eigs,log_real_eigs): 3.739
+torch.Size([64, 2500])
+Epoch [137/1000], Wasserstein(eigs,real_eigs): 23183.490, Wasserstein(log_eigs,log_real_eigs): 3.700
+torch.Size([64, 2500])
+Epoch [138/1000], Wasserstein(eigs,real_eigs): 19933.864, Wasserstein(log_eigs,log_real_eigs): 3.777
+torch.Size([64, 2500])
+Epoch [139/1000], Wasserstein(eigs,real_eigs): 19018.158, Wasserstein(log_eigs,log_real_eigs): 3.648
+torch.Size([64, 2500])
+Epoch [140/1000], Wasserstein(eigs,real_eigs): 14688.561, Wasserstein(log_eigs,log_real_eigs): 3.563
+torch.Size([64, 2500])
+Epoch [141/1000], Wasserstein(eigs,real_eigs): 15971.130, Wasserstein(log_eigs,log_real_eigs): 3.609
+torch.Size([64, 2500])
+Epoch [142/1000], Wasserstein(eigs,real_eigs): 15225.287, Wasserstein(log_eigs,log_real_eigs): 3.547
+torch.Size([64, 2500])
+Epoch [143/1000], Wasserstein(eigs,real_eigs): 20713.341, Wasserstein(log_eigs,log_real_eigs): 3.694
+torch.Size([64, 2500])
+Epoch [144/1000], Wasserstein(eigs,real_eigs): 29218.688, Wasserstein(log_eigs,log_real_eigs): 3.939
+torch.Size([64, 2500])
+Epoch [145/1000], Wasserstein(eigs,real_eigs): 34971.981, Wasserstein(log_eigs,log_real_eigs): 3.892
+torch.Size([64, 2500])
+Epoch [146/1000], Wasserstein(eigs,real_eigs): 29403.401, Wasserstein(log_eigs,log_real_eigs): 3.874
+torch.Size([64, 2500])
+Epoch [147/1000], Wasserstein(eigs,real_eigs): 22624.684, Wasserstein(log_eigs,log_real_eigs): 3.800
+torch.Size([64, 2500])
+Epoch [148/1000], Wasserstein(eigs,real_eigs): 18922.905, Wasserstein(log_eigs,log_real_eigs): 3.732
+torch.Size([64, 2500])
+Epoch [149/1000], Wasserstein(eigs,real_eigs): 23821.666, Wasserstein(log_eigs,log_real_eigs): 3.801
+torch.Size([64, 2500])
+Epoch [150/1000], Wasserstein(eigs,real_eigs): 26088.355, Wasserstein(log_eigs,log_real_eigs): 3.785
+torch.Size([64, 2500])
+Epoch [151/1000], Wasserstein(eigs,real_eigs): 29489.324, Wasserstein(log_eigs,log_real_eigs): 3.887
+torch.Size([64, 2500])
+Epoch [152/1000], Wasserstein(eigs,real_eigs): 31761.888, Wasserstein(log_eigs,log_real_eigs): 3.958
+torch.Size([64, 2500])
+Epoch [153/1000], Wasserstein(eigs,real_eigs): 33503.738, Wasserstein(log_eigs,log_real_eigs): 3.937
+torch.Size([64, 2500])
+Epoch [154/1000], Wasserstein(eigs,real_eigs): 30539.326, Wasserstein(log_eigs,log_real_eigs): 3.929
+torch.Size([64, 2500])
+Epoch [155/1000], Wasserstein(eigs,real_eigs): 35300.634, Wasserstein(log_eigs,log_real_eigs): 3.970
+torch.Size([64, 2500])
+Epoch [156/1000], Wasserstein(eigs,real_eigs): 50749.977, Wasserstein(log_eigs,log_real_eigs): 4.094
+torch.Size([64, 2500])
+Epoch [157/1000], Wasserstein(eigs,real_eigs): 42938.121, Wasserstein(log_eigs,log_real_eigs): 3.992
+torch.Size([64, 2500])
+Epoch [158/1000], Wasserstein(eigs,real_eigs): 66832.385, Wasserstein(log_eigs,log_real_eigs): 4.076
+torch.Size([64, 2500])
+Epoch [159/1000], Wasserstein(eigs,real_eigs): 61027.470, Wasserstein(log_eigs,log_real_eigs): 4.206
+torch.Size([64, 2500])
+Epoch [160/1000], Wasserstein(eigs,real_eigs): 58632.703, Wasserstein(log_eigs,log_real_eigs): 4.110
+torch.Size([64, 2500])
+Epoch [161/1000], Wasserstein(eigs,real_eigs): 47338.860, Wasserstein(log_eigs,log_real_eigs): 4.107
+torch.Size([64, 2500])
+Epoch [162/1000], Wasserstein(eigs,real_eigs): 39500.042, Wasserstein(log_eigs,log_real_eigs): 3.998
+torch.Size([64, 2500])
+Epoch [163/1000], Wasserstein(eigs,real_eigs): 33897.549, Wasserstein(log_eigs,log_real_eigs): 4.030
+torch.Size([64, 2500])
+Epoch [164/1000], Wasserstein(eigs,real_eigs): 27005.097, Wasserstein(log_eigs,log_real_eigs): 3.819
+torch.Size([64, 2500])
+Epoch [165/1000], Wasserstein(eigs,real_eigs): 30792.782, Wasserstein(log_eigs,log_real_eigs): 3.904
+torch.Size([64, 2500])
+Epoch [166/1000], Wasserstein(eigs,real_eigs): 35679.943, Wasserstein(log_eigs,log_real_eigs): 4.020
+torch.Size([64, 2500])
+Epoch [167/1000], Wasserstein(eigs,real_eigs): 39753.709, Wasserstein(log_eigs,log_real_eigs): 4.010
+torch.Size([64, 2500])
+Epoch [168/1000], Wasserstein(eigs,real_eigs): 41734.754, Wasserstein(log_eigs,log_real_eigs): 4.075
+torch.Size([64, 2500])
+Epoch [169/1000], Wasserstein(eigs,real_eigs): 39672.806, Wasserstein(log_eigs,log_real_eigs): 4.035
+torch.Size([64, 2500])
+Epoch [170/1000], Wasserstein(eigs,real_eigs): 37980.500, Wasserstein(log_eigs,log_real_eigs): 4.039
+torch.Size([64, 2500])
+Epoch [171/1000], Wasserstein(eigs,real_eigs): 41306.751, Wasserstein(log_eigs,log_real_eigs): 4.030
+torch.Size([64, 2500])
+Epoch [172/1000], Wasserstein(eigs,real_eigs): 36300.552, Wasserstein(log_eigs,log_real_eigs): 4.009
+torch.Size([64, 2500])
+Epoch [173/1000], Wasserstein(eigs,real_eigs): 31959.924, Wasserstein(log_eigs,log_real_eigs): 3.871
+torch.Size([64, 2500])
+Epoch [174/1000], Wasserstein(eigs,real_eigs): 32136.881, Wasserstein(log_eigs,log_real_eigs): 3.879
+torch.Size([64, 2500])
+Epoch [175/1000], Wasserstein(eigs,real_eigs): 30032.153, Wasserstein(log_eigs,log_real_eigs): 3.929
+torch.Size([64, 2500])
+Epoch [176/1000], Wasserstein(eigs,real_eigs): 24380.492, Wasserstein(log_eigs,log_real_eigs): 3.790
+torch.Size([64, 2500])
+Epoch [177/1000], Wasserstein(eigs,real_eigs): 25563.825, Wasserstein(log_eigs,log_real_eigs): 3.813
+torch.Size([64, 2500])
+Epoch [178/1000], Wasserstein(eigs,real_eigs): 26945.543, Wasserstein(log_eigs,log_real_eigs): 3.910
+torch.Size([64, 2500])
+Epoch [179/1000], Wasserstein(eigs,real_eigs): 30900.753, Wasserstein(log_eigs,log_real_eigs): 3.937
+torch.Size([64, 2500])
+Epoch [180/1000], Wasserstein(eigs,real_eigs): 33566.349, Wasserstein(log_eigs,log_real_eigs): 3.882
+torch.Size([64, 2500])
+Epoch [181/1000], Wasserstein(eigs,real_eigs): 45098.207, Wasserstein(log_eigs,log_real_eigs): 4.058
+torch.Size([64, 2500])
+Epoch [182/1000], Wasserstein(eigs,real_eigs): 50235.718, Wasserstein(log_eigs,log_real_eigs): 4.158
+torch.Size([64, 2500])
+Epoch [183/1000], Wasserstein(eigs,real_eigs): 55358.552, Wasserstein(log_eigs,log_real_eigs): 4.207
+torch.Size([64, 2500])
+Epoch [184/1000], Wasserstein(eigs,real_eigs): 52843.557, Wasserstein(log_eigs,log_real_eigs): 4.162
+torch.Size([64, 2500])
+Epoch [185/1000], Wasserstein(eigs,real_eigs): 46723.490, Wasserstein(log_eigs,log_real_eigs): 4.094
+torch.Size([64, 2500])
+Epoch [186/1000], Wasserstein(eigs,real_eigs): 41000.452, Wasserstein(log_eigs,log_real_eigs): 3.954
+torch.Size([64, 2500])
+Epoch [187/1000], Wasserstein(eigs,real_eigs): 48784.669, Wasserstein(log_eigs,log_real_eigs): 4.048
+torch.Size([64, 2500])
+Epoch [188/1000], Wasserstein(eigs,real_eigs): 41653.288, Wasserstein(log_eigs,log_real_eigs): 4.083
+torch.Size([64, 2500])
+Epoch [189/1000], Wasserstein(eigs,real_eigs): 28048.381, Wasserstein(log_eigs,log_real_eigs): 3.928
+torch.Size([64, 2500])
+Epoch [190/1000], Wasserstein(eigs,real_eigs): 26512.352, Wasserstein(log_eigs,log_real_eigs): 3.843
+torch.Size([64, 2500])
+Epoch [191/1000], Wasserstein(eigs,real_eigs): 39119.193, Wasserstein(log_eigs,log_real_eigs): 4.010
+torch.Size([64, 2500])
+Epoch [192/1000], Wasserstein(eigs,real_eigs): 38133.656, Wasserstein(log_eigs,log_real_eigs): 4.077
+torch.Size([64, 2500])
+Epoch [193/1000], Wasserstein(eigs,real_eigs): 37396.301, Wasserstein(log_eigs,log_real_eigs): 4.026
+torch.Size([64, 2500])
+Epoch [194/1000], Wasserstein(eigs,real_eigs): 31073.283, Wasserstein(log_eigs,log_real_eigs): 4.006
+torch.Size([64, 2500])
+Epoch [195/1000], Wasserstein(eigs,real_eigs): 36311.847, Wasserstein(log_eigs,log_real_eigs): 3.993
+torch.Size([64, 2500])
+Epoch [196/1000], Wasserstein(eigs,real_eigs): 34485.661, Wasserstein(log_eigs,log_real_eigs): 3.994
+torch.Size([64, 2500])
+Epoch [197/1000], Wasserstein(eigs,real_eigs): 31998.072, Wasserstein(log_eigs,log_real_eigs): 4.005
+torch.Size([64, 2500])
+Epoch [198/1000], Wasserstein(eigs,real_eigs): 34898.688, Wasserstein(log_eigs,log_real_eigs): 4.070
+torch.Size([64, 2500])
+Epoch [199/1000], Wasserstein(eigs,real_eigs): 64356.372, Wasserstein(log_eigs,log_real_eigs): 4.271
+torch.Size([64, 2500])
+Epoch [200/1000], Wasserstein(eigs,real_eigs): 67805.823, Wasserstein(log_eigs,log_real_eigs): 4.393
+torch.Size([64, 2500])
+Epoch [201/1000], Wasserstein(eigs,real_eigs): 105603.750, Wasserstein(log_eigs,log_real_eigs): 4.423
+torch.Size([64, 2500])
+Epoch [202/1000], Wasserstein(eigs,real_eigs): 98562.650, Wasserstein(log_eigs,log_real_eigs): 4.509
+torch.Size([64, 2500])
+Epoch [203/1000], Wasserstein(eigs,real_eigs): 106710.174, Wasserstein(log_eigs,log_real_eigs): 4.548
+torch.Size([64, 2500])
+Epoch [204/1000], Wasserstein(eigs,real_eigs): 92993.730, Wasserstein(log_eigs,log_real_eigs): 4.483
+torch.Size([64, 2500])
+Epoch [205/1000], Wasserstein(eigs,real_eigs): 78942.583, Wasserstein(log_eigs,log_real_eigs): 4.394
+torch.Size([64, 2500])
+Epoch [206/1000], Wasserstein(eigs,real_eigs): 67293.805, Wasserstein(log_eigs,log_real_eigs): 4.332
+torch.Size([64, 2500])
+Epoch [207/1000], Wasserstein(eigs,real_eigs): 45502.988, Wasserstein(log_eigs,log_real_eigs): 4.148
+torch.Size([64, 2500])
+Epoch [208/1000], Wasserstein(eigs,real_eigs): 38730.378, Wasserstein(log_eigs,log_real_eigs): 4.062
+torch.Size([64, 2500])
+Epoch [209/1000], Wasserstein(eigs,real_eigs): 40225.517, Wasserstein(log_eigs,log_real_eigs): 3.997
+torch.Size([64, 2500])
+Epoch [210/1000], Wasserstein(eigs,real_eigs): 40869.311, Wasserstein(log_eigs,log_real_eigs): 4.050
+torch.Size([64, 2500])
+Epoch [211/1000], Wasserstein(eigs,real_eigs): 45999.129, Wasserstein(log_eigs,log_real_eigs): 4.114
+torch.Size([64, 2500])
+Epoch [212/1000], Wasserstein(eigs,real_eigs): 38765.282, Wasserstein(log_eigs,log_real_eigs): 4.031
+torch.Size([64, 2500])
+Epoch [213/1000], Wasserstein(eigs,real_eigs): 40189.315, Wasserstein(log_eigs,log_real_eigs): 4.099
+torch.Size([64, 2500])
+Epoch [214/1000], Wasserstein(eigs,real_eigs): 36150.029, Wasserstein(log_eigs,log_real_eigs): 4.063
+torch.Size([64, 2500])
+Epoch [215/1000], Wasserstein(eigs,real_eigs): 28886.684, Wasserstein(log_eigs,log_real_eigs): 3.905
+torch.Size([64, 2500])
+Epoch [216/1000], Wasserstein(eigs,real_eigs): 26520.664, Wasserstein(log_eigs,log_real_eigs): 3.906
+torch.Size([64, 2500])
+Epoch [217/1000], Wasserstein(eigs,real_eigs): 30694.775, Wasserstein(log_eigs,log_real_eigs): 3.957
+torch.Size([64, 2500])
+Epoch [218/1000], Wasserstein(eigs,real_eigs): 29740.475, Wasserstein(log_eigs,log_real_eigs): 3.978
+torch.Size([64, 2500])
+Epoch [219/1000], Wasserstein(eigs,real_eigs): 34234.047, Wasserstein(log_eigs,log_real_eigs): 3.995
+torch.Size([64, 2500])
+Epoch [220/1000], Wasserstein(eigs,real_eigs): 37856.526, Wasserstein(log_eigs,log_real_eigs): 4.082
+torch.Size([64, 2500])
+Epoch [221/1000], Wasserstein(eigs,real_eigs): 44273.748, Wasserstein(log_eigs,log_real_eigs): 4.134
+torch.Size([64, 2500])
+Epoch [222/1000], Wasserstein(eigs,real_eigs): 46722.120, Wasserstein(log_eigs,log_real_eigs): 4.077
+torch.Size([64, 2500])
+Epoch [223/1000], Wasserstein(eigs,real_eigs): 48446.506, Wasserstein(log_eigs,log_real_eigs): 4.217
+torch.Size([64, 2500])
+Epoch [224/1000], Wasserstein(eigs,real_eigs): 53556.832, Wasserstein(log_eigs,log_real_eigs): 4.175
+torch.Size([64, 2500])
+Epoch [225/1000], Wasserstein(eigs,real_eigs): 64665.551, Wasserstein(log_eigs,log_real_eigs): 4.255
+torch.Size([64, 2500])
+Epoch [226/1000], Wasserstein(eigs,real_eigs): 80918.497, Wasserstein(log_eigs,log_real_eigs): 4.367
+torch.Size([64, 2500])
+Epoch [227/1000], Wasserstein(eigs,real_eigs): 69780.044, Wasserstein(log_eigs,log_real_eigs): 4.373
+torch.Size([64, 2500])
+Epoch [228/1000], Wasserstein(eigs,real_eigs): 61827.003, Wasserstein(log_eigs,log_real_eigs): 4.316
+torch.Size([64, 2500])
+Epoch [229/1000], Wasserstein(eigs,real_eigs): 53136.347, Wasserstein(log_eigs,log_real_eigs): 4.110
+torch.Size([64, 2500])
+Epoch [230/1000], Wasserstein(eigs,real_eigs): 64417.047, Wasserstein(log_eigs,log_real_eigs): 4.206
+torch.Size([64, 2500])
+Epoch [231/1000], Wasserstein(eigs,real_eigs): 69323.144, Wasserstein(log_eigs,log_real_eigs): 4.256
+torch.Size([64, 2500])
+Epoch [232/1000], Wasserstein(eigs,real_eigs): 71234.261, Wasserstein(log_eigs,log_real_eigs): 4.330
+torch.Size([64, 2500])
+Epoch [233/1000], Wasserstein(eigs,real_eigs): 76042.760, Wasserstein(log_eigs,log_real_eigs): 4.330
+torch.Size([64, 2500])
+Epoch [234/1000], Wasserstein(eigs,real_eigs): 68449.229, Wasserstein(log_eigs,log_real_eigs): 4.372
+torch.Size([64, 2500])
+Epoch [235/1000], Wasserstein(eigs,real_eigs): 77731.640, Wasserstein(log_eigs,log_real_eigs): 4.455
+torch.Size([64, 2500])
+Epoch [236/1000], Wasserstein(eigs,real_eigs): 65491.329, Wasserstein(log_eigs,log_real_eigs): 4.340
+torch.Size([64, 2500])
+Epoch [237/1000], Wasserstein(eigs,real_eigs): 45159.876, Wasserstein(log_eigs,log_real_eigs): 4.189
+torch.Size([64, 2500])
+Epoch [238/1000], Wasserstein(eigs,real_eigs): 39548.154, Wasserstein(log_eigs,log_real_eigs): 4.156
+torch.Size([64, 2500])
+Epoch [239/1000], Wasserstein(eigs,real_eigs): 34079.964, Wasserstein(log_eigs,log_real_eigs): 3.971
+torch.Size([64, 2500])
+Epoch [240/1000], Wasserstein(eigs,real_eigs): 39196.557, Wasserstein(log_eigs,log_real_eigs): 4.166
+torch.Size([64, 2500])
+Epoch [241/1000], Wasserstein(eigs,real_eigs): 42348.674, Wasserstein(log_eigs,log_real_eigs): 4.197
+torch.Size([64, 2500])
+Epoch [242/1000], Wasserstein(eigs,real_eigs): 60868.832, Wasserstein(log_eigs,log_real_eigs): 4.322
+torch.Size([64, 2500])
+Epoch [243/1000], Wasserstein(eigs,real_eigs): 42714.492, Wasserstein(log_eigs,log_real_eigs): 4.045
+torch.Size([64, 2500])
+Epoch [244/1000], Wasserstein(eigs,real_eigs): 39721.412, Wasserstein(log_eigs,log_real_eigs): 3.981
+torch.Size([64, 2500])
+Epoch [245/1000], Wasserstein(eigs,real_eigs): 42614.151, Wasserstein(log_eigs,log_real_eigs): 4.079
+torch.Size([64, 2500])
+Epoch [246/1000], Wasserstein(eigs,real_eigs): 38668.635, Wasserstein(log_eigs,log_real_eigs): 4.059
+torch.Size([64, 2500])
+Epoch [247/1000], Wasserstein(eigs,real_eigs): 37680.825, Wasserstein(log_eigs,log_real_eigs): 4.073
+torch.Size([64, 2500])
+Epoch [248/1000], Wasserstein(eigs,real_eigs): 44311.432, Wasserstein(log_eigs,log_real_eigs): 4.173
+torch.Size([64, 2500])
+Epoch [249/1000], Wasserstein(eigs,real_eigs): 46220.925, Wasserstein(log_eigs,log_real_eigs): 4.196
+torch.Size([64, 2500])
+Epoch [250/1000], Wasserstein(eigs,real_eigs): 48040.684, Wasserstein(log_eigs,log_real_eigs): 4.276
+torch.Size([64, 2500])
+Epoch [251/1000], Wasserstein(eigs,real_eigs): 46883.589, Wasserstein(log_eigs,log_real_eigs): 4.161
+torch.Size([64, 2500])
+Epoch [252/1000], Wasserstein(eigs,real_eigs): 45168.185, Wasserstein(log_eigs,log_real_eigs): 4.203
+torch.Size([64, 2500])
+Epoch [253/1000], Wasserstein(eigs,real_eigs): 44075.402, Wasserstein(log_eigs,log_real_eigs): 4.213
+torch.Size([64, 2500])
+Epoch [254/1000], Wasserstein(eigs,real_eigs): 40612.740, Wasserstein(log_eigs,log_real_eigs): 4.134
+torch.Size([64, 2500])
+Epoch [255/1000], Wasserstein(eigs,real_eigs): 37695.644, Wasserstein(log_eigs,log_real_eigs): 4.039
+torch.Size([64, 2500])
+Epoch [256/1000], Wasserstein(eigs,real_eigs): 29793.270, Wasserstein(log_eigs,log_real_eigs): 3.934
+torch.Size([64, 2500])
+Epoch [257/1000], Wasserstein(eigs,real_eigs): 26225.527, Wasserstein(log_eigs,log_real_eigs): 3.939
+torch.Size([64, 2500])
+Epoch [258/1000], Wasserstein(eigs,real_eigs): 21588.003, Wasserstein(log_eigs,log_real_eigs): 3.840
+torch.Size([64, 2500])
+Epoch [259/1000], Wasserstein(eigs,real_eigs): 17321.239, Wasserstein(log_eigs,log_real_eigs): 3.735
+torch.Size([64, 2500])
+Epoch [260/1000], Wasserstein(eigs,real_eigs): 18787.977, Wasserstein(log_eigs,log_real_eigs): 3.729
+torch.Size([64, 2500])
+Epoch [261/1000], Wasserstein(eigs,real_eigs): 23348.414, Wasserstein(log_eigs,log_real_eigs): 3.860
+torch.Size([64, 2500])
+Epoch [262/1000], Wasserstein(eigs,real_eigs): 22731.788, Wasserstein(log_eigs,log_real_eigs): 3.860
+torch.Size([64, 2500])
+Epoch [263/1000], Wasserstein(eigs,real_eigs): 25041.953, Wasserstein(log_eigs,log_real_eigs): 3.905
+torch.Size([64, 2500])
+Epoch [264/1000], Wasserstein(eigs,real_eigs): 30074.225, Wasserstein(log_eigs,log_real_eigs): 4.007
+torch.Size([64, 2500])
+Epoch [265/1000], Wasserstein(eigs,real_eigs): 32654.841, Wasserstein(log_eigs,log_real_eigs): 4.001
+torch.Size([64, 2500])
+Epoch [266/1000], Wasserstein(eigs,real_eigs): 32613.717, Wasserstein(log_eigs,log_real_eigs): 4.057
+torch.Size([64, 2500])
+Epoch [267/1000], Wasserstein(eigs,real_eigs): 30043.509, Wasserstein(log_eigs,log_real_eigs): 3.955
+torch.Size([64, 2500])
+Epoch [268/1000], Wasserstein(eigs,real_eigs): 23108.537, Wasserstein(log_eigs,log_real_eigs): 3.810
+torch.Size([64, 2500])
+Epoch [269/1000], Wasserstein(eigs,real_eigs): 23476.853, Wasserstein(log_eigs,log_real_eigs): 3.915
+torch.Size([64, 2500])
+Epoch [270/1000], Wasserstein(eigs,real_eigs): 30771.001, Wasserstein(log_eigs,log_real_eigs): 4.041
+torch.Size([64, 2500])
+Epoch [271/1000], Wasserstein(eigs,real_eigs): 44361.272, Wasserstein(log_eigs,log_real_eigs): 4.136
+torch.Size([64, 2500])
+Epoch [272/1000], Wasserstein(eigs,real_eigs): 46094.827, Wasserstein(log_eigs,log_real_eigs): 4.190
+torch.Size([64, 2500])
+Epoch [273/1000], Wasserstein(eigs,real_eigs): 53074.657, Wasserstein(log_eigs,log_real_eigs): 4.196
+torch.Size([64, 2500])
+Epoch [274/1000], Wasserstein(eigs,real_eigs): 55920.214, Wasserstein(log_eigs,log_real_eigs): 4.280
+torch.Size([64, 2500])
+Epoch [275/1000], Wasserstein(eigs,real_eigs): 45287.602, Wasserstein(log_eigs,log_real_eigs): 4.124
+torch.Size([64, 2500])
+Epoch [276/1000], Wasserstein(eigs,real_eigs): 50988.550, Wasserstein(log_eigs,log_real_eigs): 4.284
+torch.Size([64, 2500])
+Epoch [277/1000], Wasserstein(eigs,real_eigs): 44547.536, Wasserstein(log_eigs,log_real_eigs): 4.133
+torch.Size([64, 2500])
+Epoch [278/1000], Wasserstein(eigs,real_eigs): 31661.642, Wasserstein(log_eigs,log_real_eigs): 4.026
+torch.Size([64, 2500])
+Epoch [279/1000], Wasserstein(eigs,real_eigs): 23712.262, Wasserstein(log_eigs,log_real_eigs): 3.891
+torch.Size([64, 2500])
+Epoch [280/1000], Wasserstein(eigs,real_eigs): 27733.868, Wasserstein(log_eigs,log_real_eigs): 3.983
+torch.Size([64, 2500])
+Epoch [281/1000], Wasserstein(eigs,real_eigs): 33755.549, Wasserstein(log_eigs,log_real_eigs): 4.068
+torch.Size([64, 2500])
+Epoch [282/1000], Wasserstein(eigs,real_eigs): 26963.220, Wasserstein(log_eigs,log_real_eigs): 3.966
+torch.Size([64, 2500])
+Epoch [283/1000], Wasserstein(eigs,real_eigs): 40082.783, Wasserstein(log_eigs,log_real_eigs): 4.158
+torch.Size([64, 2500])
+Epoch [284/1000], Wasserstein(eigs,real_eigs): 29264.175, Wasserstein(log_eigs,log_real_eigs): 3.994
+torch.Size([64, 2500])
+Epoch [285/1000], Wasserstein(eigs,real_eigs): 31087.144, Wasserstein(log_eigs,log_real_eigs): 4.070
+torch.Size([64, 2500])
+Epoch [286/1000], Wasserstein(eigs,real_eigs): 13095.564, Wasserstein(log_eigs,log_real_eigs): 3.669
+torch.Size([64, 2500])
+Epoch [287/1000], Wasserstein(eigs,real_eigs): 14161.507, Wasserstein(log_eigs,log_real_eigs): 3.710
+torch.Size([64, 2500])
+Epoch [288/1000], Wasserstein(eigs,real_eigs): 21206.939, Wasserstein(log_eigs,log_real_eigs): 3.832
+torch.Size([64, 2500])
+Epoch [289/1000], Wasserstein(eigs,real_eigs): 28889.427, Wasserstein(log_eigs,log_real_eigs): 3.943
+torch.Size([64, 2500])
+Epoch [290/1000], Wasserstein(eigs,real_eigs): 27588.317, Wasserstein(log_eigs,log_real_eigs): 3.958
+torch.Size([64, 2500])
+Epoch [291/1000], Wasserstein(eigs,real_eigs): 25020.640, Wasserstein(log_eigs,log_real_eigs): 3.938
+torch.Size([64, 2500])
+Epoch [292/1000], Wasserstein(eigs,real_eigs): 18315.557, Wasserstein(log_eigs,log_real_eigs): 3.829
+torch.Size([64, 2500])
+Epoch [293/1000], Wasserstein(eigs,real_eigs): 21629.179, Wasserstein(log_eigs,log_real_eigs): 3.923
+torch.Size([64, 2500])
+Epoch [294/1000], Wasserstein(eigs,real_eigs): 27020.490, Wasserstein(log_eigs,log_real_eigs): 3.989
+torch.Size([64, 2500])
+Epoch [295/1000], Wasserstein(eigs,real_eigs): 29695.019, Wasserstein(log_eigs,log_real_eigs): 3.979
+torch.Size([64, 2500])
+Epoch [296/1000], Wasserstein(eigs,real_eigs): 20687.337, Wasserstein(log_eigs,log_real_eigs): 3.819
+torch.Size([64, 2500])
+Epoch [297/1000], Wasserstein(eigs,real_eigs): 19061.866, Wasserstein(log_eigs,log_real_eigs): 3.780
+torch.Size([64, 2500])
+Epoch [298/1000], Wasserstein(eigs,real_eigs): 20335.856, Wasserstein(log_eigs,log_real_eigs): 3.804
+torch.Size([64, 2500])
+Epoch [299/1000], Wasserstein(eigs,real_eigs): 27669.344, Wasserstein(log_eigs,log_real_eigs): 4.020
+torch.Size([64, 2500])
+Epoch [300/1000], Wasserstein(eigs,real_eigs): 30056.686, Wasserstein(log_eigs,log_real_eigs): 4.041
+torch.Size([64, 2500])
+Epoch [301/1000], Wasserstein(eigs,real_eigs): 32893.012, Wasserstein(log_eigs,log_real_eigs): 4.197
+torch.Size([64, 2500])
+Epoch [302/1000], Wasserstein(eigs,real_eigs): 38598.854, Wasserstein(log_eigs,log_real_eigs): 4.171
+torch.Size([64, 2500])
+Epoch [303/1000], Wasserstein(eigs,real_eigs): 53108.446, Wasserstein(log_eigs,log_real_eigs): 4.343
+torch.Size([64, 2500])
+Epoch [304/1000], Wasserstein(eigs,real_eigs): 50055.867, Wasserstein(log_eigs,log_real_eigs): 4.284
+torch.Size([64, 2500])
+Epoch [305/1000], Wasserstein(eigs,real_eigs): 24814.596, Wasserstein(log_eigs,log_real_eigs): 3.886
+torch.Size([64, 2500])
+Epoch [306/1000], Wasserstein(eigs,real_eigs): 24992.547, Wasserstein(log_eigs,log_real_eigs): 4.062
+torch.Size([64, 2500])
+Epoch [307/1000], Wasserstein(eigs,real_eigs): 28670.394, Wasserstein(log_eigs,log_real_eigs): 4.040
+torch.Size([64, 2500])
+Epoch [308/1000], Wasserstein(eigs,real_eigs): 18066.524, Wasserstein(log_eigs,log_real_eigs): 3.740
+torch.Size([64, 2500])
+Epoch [309/1000], Wasserstein(eigs,real_eigs): 21078.905, Wasserstein(log_eigs,log_real_eigs): 3.916
+torch.Size([64, 2500])
+Epoch [310/1000], Wasserstein(eigs,real_eigs): 11656.649, Wasserstein(log_eigs,log_real_eigs): 3.628
+torch.Size([64, 2500])
+Epoch [311/1000], Wasserstein(eigs,real_eigs): 10810.648, Wasserstein(log_eigs,log_real_eigs): 3.642
+torch.Size([64, 2500])
+Epoch [312/1000], Wasserstein(eigs,real_eigs): 12943.868, Wasserstein(log_eigs,log_real_eigs): 3.709
+torch.Size([64, 2500])
+Epoch [313/1000], Wasserstein(eigs,real_eigs): 13807.669, Wasserstein(log_eigs,log_real_eigs): 3.664
+torch.Size([64, 2500])
+Epoch [314/1000], Wasserstein(eigs,real_eigs): 18817.683, Wasserstein(log_eigs,log_real_eigs): 3.795
+torch.Size([64, 2500])
+Epoch [315/1000], Wasserstein(eigs,real_eigs): 20993.969, Wasserstein(log_eigs,log_real_eigs): 3.882
+torch.Size([64, 2500])
+Epoch [316/1000], Wasserstein(eigs,real_eigs): 16074.839, Wasserstein(log_eigs,log_real_eigs): 3.754
+torch.Size([64, 2500])
+Epoch [317/1000], Wasserstein(eigs,real_eigs): 17081.385, Wasserstein(log_eigs,log_real_eigs): 3.815
+torch.Size([64, 2500])
+Epoch [318/1000], Wasserstein(eigs,real_eigs): 22730.489, Wasserstein(log_eigs,log_real_eigs): 3.909
+torch.Size([64, 2500])
+Epoch [319/1000], Wasserstein(eigs,real_eigs): 25347.198, Wasserstein(log_eigs,log_real_eigs): 3.935
+torch.Size([64, 2500])
+Epoch [320/1000], Wasserstein(eigs,real_eigs): 20401.840, Wasserstein(log_eigs,log_real_eigs): 3.810
+torch.Size([64, 2500])
+Epoch [321/1000], Wasserstein(eigs,real_eigs): 19305.278, Wasserstein(log_eigs,log_real_eigs): 3.840
+torch.Size([64, 2500])
+Epoch [322/1000], Wasserstein(eigs,real_eigs): 21796.033, Wasserstein(log_eigs,log_real_eigs): 3.972
+torch.Size([64, 2500])
+Epoch [323/1000], Wasserstein(eigs,real_eigs): 9039.081, Wasserstein(log_eigs,log_real_eigs): 3.468
+torch.Size([64, 2500])
+Epoch [324/1000], Wasserstein(eigs,real_eigs): 6623.988, Wasserstein(log_eigs,log_real_eigs): 3.324
+torch.Size([64, 2500])
+Epoch [325/1000], Wasserstein(eigs,real_eigs): 7426.749, Wasserstein(log_eigs,log_real_eigs): 3.304
+torch.Size([64, 2500])
+Epoch [326/1000], Wasserstein(eigs,real_eigs): 7233.122, Wasserstein(log_eigs,log_real_eigs): 3.465
+torch.Size([64, 2500])
+Epoch [327/1000], Wasserstein(eigs,real_eigs): 5452.067, Wasserstein(log_eigs,log_real_eigs): 3.418
+torch.Size([64, 2500])
+Epoch [328/1000], Wasserstein(eigs,real_eigs): 5621.399, Wasserstein(log_eigs,log_real_eigs): 3.252
+torch.Size([64, 2500])
+Epoch [329/1000], Wasserstein(eigs,real_eigs): 6771.973, Wasserstein(log_eigs,log_real_eigs): 3.421
+torch.Size([64, 2500])
+Epoch [330/1000], Wasserstein(eigs,real_eigs): 8726.877, Wasserstein(log_eigs,log_real_eigs): 3.281
+torch.Size([64, 2500])
+Epoch [331/1000], Wasserstein(eigs,real_eigs): 13029.740, Wasserstein(log_eigs,log_real_eigs): 3.604
+torch.Size([64, 2500])
+Epoch [332/1000], Wasserstein(eigs,real_eigs): 13165.986, Wasserstein(log_eigs,log_real_eigs): 3.659
+torch.Size([64, 2500])
+Epoch [333/1000], Wasserstein(eigs,real_eigs): 8492.340, Wasserstein(log_eigs,log_real_eigs): 3.425
+torch.Size([64, 2500])
+Epoch [334/1000], Wasserstein(eigs,real_eigs): 6310.129, Wasserstein(log_eigs,log_real_eigs): 3.357
+torch.Size([64, 2500])
+Epoch [335/1000], Wasserstein(eigs,real_eigs): 7433.371, Wasserstein(log_eigs,log_real_eigs): 3.127
+torch.Size([64, 2500])
+Epoch [336/1000], Wasserstein(eigs,real_eigs): 14510.060, Wasserstein(log_eigs,log_real_eigs): 3.752
+torch.Size([64, 2500])
+Epoch [337/1000], Wasserstein(eigs,real_eigs): 14075.548, Wasserstein(log_eigs,log_real_eigs): 3.600
+torch.Size([64, 2500])
+Epoch [338/1000], Wasserstein(eigs,real_eigs): 13245.856, Wasserstein(log_eigs,log_real_eigs): 3.597
+torch.Size([64, 2500])
+Epoch [339/1000], Wasserstein(eigs,real_eigs): 11262.757, Wasserstein(log_eigs,log_real_eigs): 3.402
+torch.Size([64, 2500])
+Epoch [340/1000], Wasserstein(eigs,real_eigs): 9280.809, Wasserstein(log_eigs,log_real_eigs): 3.513
+torch.Size([64, 2500])
+Epoch [341/1000], Wasserstein(eigs,real_eigs): 8567.788, Wasserstein(log_eigs,log_real_eigs): 3.418
+torch.Size([64, 2500])
+Epoch [342/1000], Wasserstein(eigs,real_eigs): 7530.600, Wasserstein(log_eigs,log_real_eigs): 3.244
+torch.Size([64, 2500])
+Epoch [343/1000], Wasserstein(eigs,real_eigs): 8984.226, Wasserstein(log_eigs,log_real_eigs): 3.414
+torch.Size([64, 2500])
+Epoch [344/1000], Wasserstein(eigs,real_eigs): 10395.859, Wasserstein(log_eigs,log_real_eigs): 3.435
+torch.Size([64, 2500])
+Epoch [345/1000], Wasserstein(eigs,real_eigs): 8018.843, Wasserstein(log_eigs,log_real_eigs): 3.276
+torch.Size([64, 2500])
+Epoch [346/1000], Wasserstein(eigs,real_eigs): 7175.238, Wasserstein(log_eigs,log_real_eigs): 3.198
+torch.Size([64, 2500])
+Epoch [347/1000], Wasserstein(eigs,real_eigs): 7528.828, Wasserstein(log_eigs,log_real_eigs): 3.297
+torch.Size([64, 2500])
+Epoch [348/1000], Wasserstein(eigs,real_eigs): 7474.295, Wasserstein(log_eigs,log_real_eigs): 3.348
+torch.Size([64, 2500])
+Epoch [349/1000], Wasserstein(eigs,real_eigs): 7294.972, Wasserstein(log_eigs,log_real_eigs): 3.329
+torch.Size([64, 2500])
+Epoch [350/1000], Wasserstein(eigs,real_eigs): 8991.130, Wasserstein(log_eigs,log_real_eigs): 3.247
+torch.Size([64, 2500])
+Epoch [351/1000], Wasserstein(eigs,real_eigs): 13656.731, Wasserstein(log_eigs,log_real_eigs): 3.470
+torch.Size([64, 2500])
+Epoch [352/1000], Wasserstein(eigs,real_eigs): 22424.876, Wasserstein(log_eigs,log_real_eigs): 3.657
+torch.Size([64, 2500])
+Epoch [353/1000], Wasserstein(eigs,real_eigs): 25621.795, Wasserstein(log_eigs,log_real_eigs): 3.763
+torch.Size([64, 2500])
+Epoch [354/1000], Wasserstein(eigs,real_eigs): 29699.007, Wasserstein(log_eigs,log_real_eigs): 3.906
+torch.Size([64, 2500])
+Epoch [355/1000], Wasserstein(eigs,real_eigs): 28594.990, Wasserstein(log_eigs,log_real_eigs): 3.823
+torch.Size([64, 2500])
+Epoch [356/1000], Wasserstein(eigs,real_eigs): 19471.422, Wasserstein(log_eigs,log_real_eigs): 3.660
+torch.Size([64, 2500])
+Epoch [357/1000], Wasserstein(eigs,real_eigs): 17389.030, Wasserstein(log_eigs,log_real_eigs): 3.619
+torch.Size([64, 2500])
+Epoch [358/1000], Wasserstein(eigs,real_eigs): 24638.202, Wasserstein(log_eigs,log_real_eigs): 3.878
+torch.Size([64, 2500])
+Epoch [359/1000], Wasserstein(eigs,real_eigs): 28107.926, Wasserstein(log_eigs,log_real_eigs): 3.884
+torch.Size([64, 2500])
+Epoch [360/1000], Wasserstein(eigs,real_eigs): 28671.798, Wasserstein(log_eigs,log_real_eigs): 3.924
+torch.Size([64, 2500])
+Epoch [361/1000], Wasserstein(eigs,real_eigs): 33108.179, Wasserstein(log_eigs,log_real_eigs): 3.892
+torch.Size([64, 2500])
+Epoch [362/1000], Wasserstein(eigs,real_eigs): 25241.667, Wasserstein(log_eigs,log_real_eigs): 3.858
+torch.Size([64, 2500])
+Epoch [363/1000], Wasserstein(eigs,real_eigs): 17020.939, Wasserstein(log_eigs,log_real_eigs): 3.715
+torch.Size([64, 2500])
+Epoch [364/1000], Wasserstein(eigs,real_eigs): 18268.260, Wasserstein(log_eigs,log_real_eigs): 3.635
+torch.Size([64, 2500])
+Epoch [365/1000], Wasserstein(eigs,real_eigs): 24427.788, Wasserstein(log_eigs,log_real_eigs): 3.763
+torch.Size([64, 2500])
+Epoch [366/1000], Wasserstein(eigs,real_eigs): 37138.962, Wasserstein(log_eigs,log_real_eigs): 4.047
+torch.Size([64, 2500])
+Epoch [367/1000], Wasserstein(eigs,real_eigs): 42430.289, Wasserstein(log_eigs,log_real_eigs): 4.044
+torch.Size([64, 2500])
+Epoch [368/1000], Wasserstein(eigs,real_eigs): 52223.379, Wasserstein(log_eigs,log_real_eigs): 4.052
+torch.Size([64, 2500])
+Epoch [369/1000], Wasserstein(eigs,real_eigs): 36339.099, Wasserstein(log_eigs,log_real_eigs): 4.073
+torch.Size([64, 2500])
+Epoch [370/1000], Wasserstein(eigs,real_eigs): 37326.152, Wasserstein(log_eigs,log_real_eigs): 3.931
+torch.Size([64, 2500])
+Epoch [371/1000], Wasserstein(eigs,real_eigs): 48220.982, Wasserstein(log_eigs,log_real_eigs): 4.091
+torch.Size([64, 2500])
+Epoch [372/1000], Wasserstein(eigs,real_eigs): 45513.045, Wasserstein(log_eigs,log_real_eigs): 4.118
+torch.Size([64, 2500])
+Epoch [373/1000], Wasserstein(eigs,real_eigs): 38995.781, Wasserstein(log_eigs,log_real_eigs): 3.997
+torch.Size([64, 2500])
+Epoch [374/1000], Wasserstein(eigs,real_eigs): 41780.936, Wasserstein(log_eigs,log_real_eigs): 4.095
+torch.Size([64, 2500])
+Epoch [375/1000], Wasserstein(eigs,real_eigs): 39751.783, Wasserstein(log_eigs,log_real_eigs): 4.154
+torch.Size([64, 2500])
+Epoch [376/1000], Wasserstein(eigs,real_eigs): 23325.458, Wasserstein(log_eigs,log_real_eigs): 3.867
+torch.Size([64, 2500])
+Epoch [377/1000], Wasserstein(eigs,real_eigs): 31009.825, Wasserstein(log_eigs,log_real_eigs): 4.063
+torch.Size([64, 2500])
+Epoch [378/1000], Wasserstein(eigs,real_eigs): 28871.454, Wasserstein(log_eigs,log_real_eigs): 4.025
+torch.Size([64, 2500])
+Epoch [379/1000], Wasserstein(eigs,real_eigs): 35979.259, Wasserstein(log_eigs,log_real_eigs): 4.054
+torch.Size([64, 2500])
+Epoch [380/1000], Wasserstein(eigs,real_eigs): 18697.739, Wasserstein(log_eigs,log_real_eigs): 3.831
+torch.Size([64, 2500])
+Epoch [381/1000], Wasserstein(eigs,real_eigs): 18945.109, Wasserstein(log_eigs,log_real_eigs): 3.803
+torch.Size([64, 2500])
+Epoch [382/1000], Wasserstein(eigs,real_eigs): 23736.216, Wasserstein(log_eigs,log_real_eigs): 3.924
+torch.Size([64, 2500])
+Epoch [383/1000], Wasserstein(eigs,real_eigs): 16357.817, Wasserstein(log_eigs,log_real_eigs): 3.691
+torch.Size([64, 2500])
+Epoch [384/1000], Wasserstein(eigs,real_eigs): 24955.313, Wasserstein(log_eigs,log_real_eigs): 3.992
+torch.Size([64, 2500])
+Epoch [385/1000], Wasserstein(eigs,real_eigs): 26013.981, Wasserstein(log_eigs,log_real_eigs): 3.908
+torch.Size([64, 2500])
+Epoch [386/1000], Wasserstein(eigs,real_eigs): 23789.543, Wasserstein(log_eigs,log_real_eigs): 3.914
+torch.Size([64, 2500])
+Epoch [387/1000], Wasserstein(eigs,real_eigs): 38977.598, Wasserstein(log_eigs,log_real_eigs): 4.148
+torch.Size([64, 2500])
+Epoch [388/1000], Wasserstein(eigs,real_eigs): 15779.538, Wasserstein(log_eigs,log_real_eigs): 3.801
+torch.Size([64, 2500])
+Epoch [389/1000], Wasserstein(eigs,real_eigs): 21214.626, Wasserstein(log_eigs,log_real_eigs): 3.869
+torch.Size([64, 2500])
+Epoch [390/1000], Wasserstein(eigs,real_eigs): 31779.257, Wasserstein(log_eigs,log_real_eigs): 4.132
+torch.Size([64, 2500])
+Epoch [391/1000], Wasserstein(eigs,real_eigs): 36308.891, Wasserstein(log_eigs,log_real_eigs): 4.169
+torch.Size([64, 2500])
+Epoch [392/1000], Wasserstein(eigs,real_eigs): 27577.330, Wasserstein(log_eigs,log_real_eigs): 3.933
+torch.Size([64, 2500])
+Epoch [393/1000], Wasserstein(eigs,real_eigs): 31831.689, Wasserstein(log_eigs,log_real_eigs): 4.134
+torch.Size([64, 2500])
+Epoch [394/1000], Wasserstein(eigs,real_eigs): 32808.856, Wasserstein(log_eigs,log_real_eigs): 4.086
+torch.Size([64, 2500])
+Epoch [395/1000], Wasserstein(eigs,real_eigs): 28400.485, Wasserstein(log_eigs,log_real_eigs): 4.087
+torch.Size([64, 2500])
+Epoch [396/1000], Wasserstein(eigs,real_eigs): 35263.851, Wasserstein(log_eigs,log_real_eigs): 4.117
+torch.Size([64, 2500])
+Epoch [397/1000], Wasserstein(eigs,real_eigs): 34242.841, Wasserstein(log_eigs,log_real_eigs): 4.103
+torch.Size([64, 2500])
+Epoch [398/1000], Wasserstein(eigs,real_eigs): 31535.251, Wasserstein(log_eigs,log_real_eigs): 4.116
+torch.Size([64, 2500])
+Epoch [399/1000], Wasserstein(eigs,real_eigs): 34138.610, Wasserstein(log_eigs,log_real_eigs): 4.204
+torch.Size([64, 2500])
+Epoch [400/1000], Wasserstein(eigs,real_eigs): 31717.520, Wasserstein(log_eigs,log_real_eigs): 4.038
+torch.Size([64, 2500])
+Epoch [401/1000], Wasserstein(eigs,real_eigs): 30374.612, Wasserstein(log_eigs,log_real_eigs): 4.113
+torch.Size([64, 2500])
+Epoch [402/1000], Wasserstein(eigs,real_eigs): 18494.197, Wasserstein(log_eigs,log_real_eigs): 3.778
+torch.Size([64, 2500])
+Epoch [403/1000], Wasserstein(eigs,real_eigs): 40994.803, Wasserstein(log_eigs,log_real_eigs): 4.212
+torch.Size([64, 2500])
+Epoch [404/1000], Wasserstein(eigs,real_eigs): 54249.029, Wasserstein(log_eigs,log_real_eigs): 4.363
+torch.Size([64, 2500])
+Epoch [405/1000], Wasserstein(eigs,real_eigs): 22498.553, Wasserstein(log_eigs,log_real_eigs): 3.830
+torch.Size([64, 2500])
+Epoch [406/1000], Wasserstein(eigs,real_eigs): 30089.933, Wasserstein(log_eigs,log_real_eigs): 4.098
+torch.Size([64, 2500])
+Epoch [407/1000], Wasserstein(eigs,real_eigs): 24767.532, Wasserstein(log_eigs,log_real_eigs): 3.951
+torch.Size([64, 2500])
+Epoch [408/1000], Wasserstein(eigs,real_eigs): 20202.189, Wasserstein(log_eigs,log_real_eigs): 3.911
+torch.Size([64, 2500])
+Epoch [409/1000], Wasserstein(eigs,real_eigs): 17602.973, Wasserstein(log_eigs,log_real_eigs): 3.776
+torch.Size([64, 2500])
+Epoch [410/1000], Wasserstein(eigs,real_eigs): 15138.811, Wasserstein(log_eigs,log_real_eigs): 3.733
+torch.Size([64, 2500])
+Epoch [411/1000], Wasserstein(eigs,real_eigs): 13946.614, Wasserstein(log_eigs,log_real_eigs): 3.610
+torch.Size([64, 2500])
+Epoch [412/1000], Wasserstein(eigs,real_eigs): 16036.870, Wasserstein(log_eigs,log_real_eigs): 3.761
+torch.Size([64, 2500])
+Epoch [413/1000], Wasserstein(eigs,real_eigs): 13073.334, Wasserstein(log_eigs,log_real_eigs): 3.679
+torch.Size([64, 2500])
+Epoch [414/1000], Wasserstein(eigs,real_eigs): 10824.570, Wasserstein(log_eigs,log_real_eigs): 3.486
+torch.Size([64, 2500])
+Epoch [415/1000], Wasserstein(eigs,real_eigs): 8487.395, Wasserstein(log_eigs,log_real_eigs): 3.449
+torch.Size([64, 2500])
+Epoch [416/1000], Wasserstein(eigs,real_eigs): 7326.980, Wasserstein(log_eigs,log_real_eigs): 3.180
+torch.Size([64, 2500])
+Epoch [417/1000], Wasserstein(eigs,real_eigs): 7983.577, Wasserstein(log_eigs,log_real_eigs): 3.454
+torch.Size([64, 2500])
+Epoch [418/1000], Wasserstein(eigs,real_eigs): 8212.781, Wasserstein(log_eigs,log_real_eigs): 3.349
+torch.Size([64, 2500])
+Epoch [419/1000], Wasserstein(eigs,real_eigs): 8663.706, Wasserstein(log_eigs,log_real_eigs): 3.398
+torch.Size([64, 2500])
+Epoch [420/1000], Wasserstein(eigs,real_eigs): 7482.629, Wasserstein(log_eigs,log_real_eigs): 3.245
+torch.Size([64, 2500])
+Epoch [421/1000], Wasserstein(eigs,real_eigs): 6113.219, Wasserstein(log_eigs,log_real_eigs): 3.198
+torch.Size([64, 2500])
+Epoch [422/1000], Wasserstein(eigs,real_eigs): 3961.756, Wasserstein(log_eigs,log_real_eigs): 3.003
+torch.Size([64, 2500])
+Epoch [423/1000], Wasserstein(eigs,real_eigs): 3782.431, Wasserstein(log_eigs,log_real_eigs): 2.922
+torch.Size([64, 2500])
+Epoch [424/1000], Wasserstein(eigs,real_eigs): 2346.432, Wasserstein(log_eigs,log_real_eigs): 2.873
+torch.Size([64, 2500])
+Epoch [425/1000], Wasserstein(eigs,real_eigs): 2226.451, Wasserstein(log_eigs,log_real_eigs): 2.773
+torch.Size([64, 2500])
+Epoch [426/1000], Wasserstein(eigs,real_eigs): 1965.989, Wasserstein(log_eigs,log_real_eigs): 2.617
+torch.Size([64, 2500])
+Epoch [427/1000], Wasserstein(eigs,real_eigs): 2156.550, Wasserstein(log_eigs,log_real_eigs): 2.617
+torch.Size([64, 2500])
+Epoch [428/1000], Wasserstein(eigs,real_eigs): 2328.904, Wasserstein(log_eigs,log_real_eigs): 2.703
+torch.Size([64, 2500])
+Epoch [429/1000], Wasserstein(eigs,real_eigs): 1997.461, Wasserstein(log_eigs,log_real_eigs): 2.576
+torch.Size([64, 2500])
+Epoch [430/1000], Wasserstein(eigs,real_eigs): 2358.498, Wasserstein(log_eigs,log_real_eigs): 2.627
+torch.Size([64, 2500])
+Epoch [431/1000], Wasserstein(eigs,real_eigs): 2395.311, Wasserstein(log_eigs,log_real_eigs): 2.880
+torch.Size([64, 2500])
+Epoch [432/1000], Wasserstein(eigs,real_eigs): 1975.150, Wasserstein(log_eigs,log_real_eigs): 2.648
+torch.Size([64, 2500])
+Epoch [433/1000], Wasserstein(eigs,real_eigs): 1380.900, Wasserstein(log_eigs,log_real_eigs): 2.447
+torch.Size([64, 2500])
+Epoch [434/1000], Wasserstein(eigs,real_eigs): 1105.363, Wasserstein(log_eigs,log_real_eigs): 2.484
+torch.Size([64, 2500])
+Epoch [435/1000], Wasserstein(eigs,real_eigs): 869.303, Wasserstein(log_eigs,log_real_eigs): 2.280
+torch.Size([64, 2500])
+Epoch [436/1000], Wasserstein(eigs,real_eigs): 828.435, Wasserstein(log_eigs,log_real_eigs): 2.256
+torch.Size([64, 2500])
+Epoch [437/1000], Wasserstein(eigs,real_eigs): 1050.721, Wasserstein(log_eigs,log_real_eigs): 2.317
+torch.Size([64, 2500])
+Epoch [438/1000], Wasserstein(eigs,real_eigs): 1103.034, Wasserstein(log_eigs,log_real_eigs): 2.252
+torch.Size([64, 2500])
+Epoch [439/1000], Wasserstein(eigs,real_eigs): 1608.725, Wasserstein(log_eigs,log_real_eigs): 2.345
+torch.Size([64, 2500])
+Epoch [440/1000], Wasserstein(eigs,real_eigs): 2171.916, Wasserstein(log_eigs,log_real_eigs): 2.470
+torch.Size([64, 2500])
+Epoch [441/1000], Wasserstein(eigs,real_eigs): 2226.084, Wasserstein(log_eigs,log_real_eigs): 2.629
+torch.Size([64, 2500])
+Epoch [442/1000], Wasserstein(eigs,real_eigs): 2363.869, Wasserstein(log_eigs,log_real_eigs): 2.549
+torch.Size([64, 2500])
+Epoch [443/1000], Wasserstein(eigs,real_eigs): 3131.546, Wasserstein(log_eigs,log_real_eigs): 2.691
+torch.Size([64, 2500])
+Epoch [444/1000], Wasserstein(eigs,real_eigs): 3780.610, Wasserstein(log_eigs,log_real_eigs): 2.822
+torch.Size([64, 2500])
+Epoch [445/1000], Wasserstein(eigs,real_eigs): 2465.032, Wasserstein(log_eigs,log_real_eigs): 2.603
+torch.Size([64, 2500])
+Epoch [446/1000], Wasserstein(eigs,real_eigs): 1875.719, Wasserstein(log_eigs,log_real_eigs): 2.383
+torch.Size([64, 2500])
+Epoch [447/1000], Wasserstein(eigs,real_eigs): 1636.912, Wasserstein(log_eigs,log_real_eigs): 2.305
+torch.Size([64, 2500])
+Epoch [448/1000], Wasserstein(eigs,real_eigs): 1348.995, Wasserstein(log_eigs,log_real_eigs): 2.277
+torch.Size([64, 2500])
+Epoch [449/1000], Wasserstein(eigs,real_eigs): 1102.096, Wasserstein(log_eigs,log_real_eigs): 2.160
+torch.Size([64, 2500])
+Epoch [450/1000], Wasserstein(eigs,real_eigs): 1658.826, Wasserstein(log_eigs,log_real_eigs): 2.443
+torch.Size([64, 2500])
+Epoch [451/1000], Wasserstein(eigs,real_eigs): 1330.965, Wasserstein(log_eigs,log_real_eigs): 2.207
+torch.Size([64, 2500])
+Epoch [452/1000], Wasserstein(eigs,real_eigs): 2379.692, Wasserstein(log_eigs,log_real_eigs): 2.505
+torch.Size([64, 2500])
+Epoch [453/1000], Wasserstein(eigs,real_eigs): 3506.483, Wasserstein(log_eigs,log_real_eigs): 2.735
+torch.Size([64, 2500])
+Epoch [454/1000], Wasserstein(eigs,real_eigs): 4071.183, Wasserstein(log_eigs,log_real_eigs): 2.842
+torch.Size([64, 2500])
+Epoch [455/1000], Wasserstein(eigs,real_eigs): 5817.869, Wasserstein(log_eigs,log_real_eigs): 3.008
+torch.Size([64, 2500])
+Epoch [456/1000], Wasserstein(eigs,real_eigs): 7644.318, Wasserstein(log_eigs,log_real_eigs): 2.991
+torch.Size([64, 2500])
+Epoch [457/1000], Wasserstein(eigs,real_eigs): 6799.373, Wasserstein(log_eigs,log_real_eigs): 3.104
+torch.Size([64, 2500])
+Epoch [458/1000], Wasserstein(eigs,real_eigs): 6236.133, Wasserstein(log_eigs,log_real_eigs): 2.949
+torch.Size([64, 2500])
+Epoch [459/1000], Wasserstein(eigs,real_eigs): 5294.902, Wasserstein(log_eigs,log_real_eigs): 2.797
+torch.Size([64, 2500])
+Epoch [460/1000], Wasserstein(eigs,real_eigs): 5493.647, Wasserstein(log_eigs,log_real_eigs): 2.723
+torch.Size([64, 2500])
+Epoch [461/1000], Wasserstein(eigs,real_eigs): 2341.275, Wasserstein(log_eigs,log_real_eigs): 2.369
+torch.Size([64, 2500])
+Epoch [462/1000], Wasserstein(eigs,real_eigs): 3154.107, Wasserstein(log_eigs,log_real_eigs): 2.613
+torch.Size([64, 2500])
+Epoch [463/1000], Wasserstein(eigs,real_eigs): 1712.103, Wasserstein(log_eigs,log_real_eigs): 2.236
+torch.Size([64, 2500])
+Epoch [464/1000], Wasserstein(eigs,real_eigs): 2299.885, Wasserstein(log_eigs,log_real_eigs): 2.483
+torch.Size([64, 2500])
+Epoch [465/1000], Wasserstein(eigs,real_eigs): 2391.258, Wasserstein(log_eigs,log_real_eigs): 2.537
+torch.Size([64, 2500])
+Epoch [466/1000], Wasserstein(eigs,real_eigs): 5232.464, Wasserstein(log_eigs,log_real_eigs): 2.889
+torch.Size([64, 2500])
+Epoch [467/1000], Wasserstein(eigs,real_eigs): 2889.504, Wasserstein(log_eigs,log_real_eigs): 2.655
+torch.Size([64, 2500])
+Epoch [468/1000], Wasserstein(eigs,real_eigs): 3003.123, Wasserstein(log_eigs,log_real_eigs): 2.473
+torch.Size([64, 2500])
+Epoch [469/1000], Wasserstein(eigs,real_eigs): 4155.222, Wasserstein(log_eigs,log_real_eigs): 2.682
+torch.Size([64, 2500])
+Epoch [470/1000], Wasserstein(eigs,real_eigs): 2832.774, Wasserstein(log_eigs,log_real_eigs): 2.569
+torch.Size([64, 2500])
+Epoch [471/1000], Wasserstein(eigs,real_eigs): 3779.502, Wasserstein(log_eigs,log_real_eigs): 2.597
+torch.Size([64, 2500])
+Epoch [472/1000], Wasserstein(eigs,real_eigs): 2880.063, Wasserstein(log_eigs,log_real_eigs): 2.533
+torch.Size([64, 2500])
+Epoch [473/1000], Wasserstein(eigs,real_eigs): 7138.899, Wasserstein(log_eigs,log_real_eigs): 3.038
+torch.Size([64, 2500])
+Epoch [474/1000], Wasserstein(eigs,real_eigs): 4619.472, Wasserstein(log_eigs,log_real_eigs): 2.771
+torch.Size([64, 2500])
+Epoch [475/1000], Wasserstein(eigs,real_eigs): 3288.522, Wasserstein(log_eigs,log_real_eigs): 2.555
+torch.Size([64, 2500])
+Epoch [476/1000], Wasserstein(eigs,real_eigs): 2676.819, Wasserstein(log_eigs,log_real_eigs): 2.545
+torch.Size([64, 2500])
+Epoch [477/1000], Wasserstein(eigs,real_eigs): 2600.409, Wasserstein(log_eigs,log_real_eigs): 2.580
+torch.Size([64, 2500])
+Epoch [478/1000], Wasserstein(eigs,real_eigs): 2244.598, Wasserstein(log_eigs,log_real_eigs): 2.370
+torch.Size([64, 2500])
+Epoch [479/1000], Wasserstein(eigs,real_eigs): 3335.997, Wasserstein(log_eigs,log_real_eigs): 2.664
+torch.Size([64, 2500])
+Epoch [480/1000], Wasserstein(eigs,real_eigs): 1078.045, Wasserstein(log_eigs,log_real_eigs): 2.067
+torch.Size([64, 2500])
+Epoch [481/1000], Wasserstein(eigs,real_eigs): 2378.364, Wasserstein(log_eigs,log_real_eigs): 2.521
+torch.Size([64, 2500])
+Epoch [482/1000], Wasserstein(eigs,real_eigs): 3102.632, Wasserstein(log_eigs,log_real_eigs): 2.524
+torch.Size([64, 2500])
+Epoch [483/1000], Wasserstein(eigs,real_eigs): 2443.395, Wasserstein(log_eigs,log_real_eigs): 2.495
+torch.Size([64, 2500])
+Epoch [484/1000], Wasserstein(eigs,real_eigs): 2444.850, Wasserstein(log_eigs,log_real_eigs): 2.538
+torch.Size([64, 2500])
+Epoch [485/1000], Wasserstein(eigs,real_eigs): 1830.723, Wasserstein(log_eigs,log_real_eigs): 2.390
+torch.Size([64, 2500])
+Epoch [486/1000], Wasserstein(eigs,real_eigs): 1318.378, Wasserstein(log_eigs,log_real_eigs): 2.259
+torch.Size([64, 2500])
+Epoch [487/1000], Wasserstein(eigs,real_eigs): 1684.396, Wasserstein(log_eigs,log_real_eigs): 2.278
+torch.Size([64, 2500])
+Epoch [488/1000], Wasserstein(eigs,real_eigs): 716.456, Wasserstein(log_eigs,log_real_eigs): 1.955
+torch.Size([64, 2500])
+Epoch [489/1000], Wasserstein(eigs,real_eigs): 2532.685, Wasserstein(log_eigs,log_real_eigs): 2.479
+torch.Size([64, 2500])
+Epoch [490/1000], Wasserstein(eigs,real_eigs): 1902.664, Wasserstein(log_eigs,log_real_eigs): 2.398
+torch.Size([64, 2500])
+Epoch [491/1000], Wasserstein(eigs,real_eigs): 2976.376, Wasserstein(log_eigs,log_real_eigs): 2.684
+torch.Size([64, 2500])
+Epoch [492/1000], Wasserstein(eigs,real_eigs): 1915.737, Wasserstein(log_eigs,log_real_eigs): 2.443
+torch.Size([64, 2500])
+Epoch [493/1000], Wasserstein(eigs,real_eigs): 956.167, Wasserstein(log_eigs,log_real_eigs): 2.054
+torch.Size([64, 2500])
+Epoch [494/1000], Wasserstein(eigs,real_eigs): 2731.629, Wasserstein(log_eigs,log_real_eigs): 2.552
+torch.Size([64, 2500])
+Epoch [495/1000], Wasserstein(eigs,real_eigs): 2296.380, Wasserstein(log_eigs,log_real_eigs): 2.599
+torch.Size([64, 2500])
+Epoch [496/1000], Wasserstein(eigs,real_eigs): 2767.157, Wasserstein(log_eigs,log_real_eigs): 2.583
+torch.Size([64, 2500])
+Epoch [497/1000], Wasserstein(eigs,real_eigs): 1474.176, Wasserstein(log_eigs,log_real_eigs): 2.308
+torch.Size([64, 2500])
+Epoch [498/1000], Wasserstein(eigs,real_eigs): 1238.260, Wasserstein(log_eigs,log_real_eigs): 2.198
+torch.Size([64, 2500])
+Epoch [499/1000], Wasserstein(eigs,real_eigs): 669.608, Wasserstein(log_eigs,log_real_eigs): 1.911
+torch.Size([64, 2500])
+Epoch [500/1000], Wasserstein(eigs,real_eigs): 537.092, Wasserstein(log_eigs,log_real_eigs): 1.843
+torch.Size([64, 2500])
+Epoch [501/1000], Wasserstein(eigs,real_eigs): 1052.277, Wasserstein(log_eigs,log_real_eigs): 2.050
+torch.Size([64, 2500])
+Epoch [502/1000], Wasserstein(eigs,real_eigs): 1528.486, Wasserstein(log_eigs,log_real_eigs): 2.329
+torch.Size([64, 2500])
+Epoch [503/1000], Wasserstein(eigs,real_eigs): 2051.834, Wasserstein(log_eigs,log_real_eigs): 2.404
+torch.Size([64, 2500])
+Epoch [504/1000], Wasserstein(eigs,real_eigs): 2064.845, Wasserstein(log_eigs,log_real_eigs): 2.493
+torch.Size([64, 2500])
+Epoch [505/1000], Wasserstein(eigs,real_eigs): 1285.895, Wasserstein(log_eigs,log_real_eigs): 2.272
+torch.Size([64, 2500])
+Epoch [506/1000], Wasserstein(eigs,real_eigs): 797.861, Wasserstein(log_eigs,log_real_eigs): 2.071
+torch.Size([64, 2500])
+Epoch [507/1000], Wasserstein(eigs,real_eigs): 1508.258, Wasserstein(log_eigs,log_real_eigs): 2.291
+torch.Size([64, 2500])
+Epoch [508/1000], Wasserstein(eigs,real_eigs): 1461.583, Wasserstein(log_eigs,log_real_eigs): 2.340
+torch.Size([64, 2500])
+Epoch [509/1000], Wasserstein(eigs,real_eigs): 781.233, Wasserstein(log_eigs,log_real_eigs): 1.988
+torch.Size([64, 2500])
+Epoch [510/1000], Wasserstein(eigs,real_eigs): 1569.230, Wasserstein(log_eigs,log_real_eigs): 2.274
+torch.Size([64, 2500])
+Epoch [511/1000], Wasserstein(eigs,real_eigs): 867.709, Wasserstein(log_eigs,log_real_eigs): 1.993
+torch.Size([64, 2500])
+Epoch [512/1000], Wasserstein(eigs,real_eigs): 1036.085, Wasserstein(log_eigs,log_real_eigs): 2.168
+torch.Size([64, 2500])
+Epoch [513/1000], Wasserstein(eigs,real_eigs): 1861.417, Wasserstein(log_eigs,log_real_eigs): 2.258
+torch.Size([64, 2500])
+Epoch [514/1000], Wasserstein(eigs,real_eigs): 2077.957, Wasserstein(log_eigs,log_real_eigs): 2.590
+torch.Size([64, 2500])
+Epoch [515/1000], Wasserstein(eigs,real_eigs): 2724.340, Wasserstein(log_eigs,log_real_eigs): 2.589
+torch.Size([64, 2500])
+Epoch [516/1000], Wasserstein(eigs,real_eigs): 1745.096, Wasserstein(log_eigs,log_real_eigs): 2.380
+torch.Size([64, 2500])
+Epoch [517/1000], Wasserstein(eigs,real_eigs): 1047.682, Wasserstein(log_eigs,log_real_eigs): 2.174
+torch.Size([64, 2500])
+Epoch [518/1000], Wasserstein(eigs,real_eigs): 1764.545, Wasserstein(log_eigs,log_real_eigs): 2.465
+torch.Size([64, 2500])
+Epoch [519/1000], Wasserstein(eigs,real_eigs): 2310.485, Wasserstein(log_eigs,log_real_eigs): 2.574
+torch.Size([64, 2500])
+Epoch [520/1000], Wasserstein(eigs,real_eigs): 1843.687, Wasserstein(log_eigs,log_real_eigs): 2.388
+torch.Size([64, 2500])
+Epoch [521/1000], Wasserstein(eigs,real_eigs): 1849.010, Wasserstein(log_eigs,log_real_eigs): 2.454
+torch.Size([64, 2500])
+Epoch [522/1000], Wasserstein(eigs,real_eigs): 1168.899, Wasserstein(log_eigs,log_real_eigs): 2.245
+torch.Size([64, 2500])
+Epoch [523/1000], Wasserstein(eigs,real_eigs): 1177.534, Wasserstein(log_eigs,log_real_eigs): 2.271
+torch.Size([64, 2500])
+Epoch [524/1000], Wasserstein(eigs,real_eigs): 1818.133, Wasserstein(log_eigs,log_real_eigs): 2.461
+torch.Size([64, 2500])
+Epoch [525/1000], Wasserstein(eigs,real_eigs): 1255.180, Wasserstein(log_eigs,log_real_eigs): 2.289
+torch.Size([64, 2500])
+Epoch [526/1000], Wasserstein(eigs,real_eigs): 538.336, Wasserstein(log_eigs,log_real_eigs): 2.001
+torch.Size([64, 2500])
+Epoch [527/1000], Wasserstein(eigs,real_eigs): 1464.349, Wasserstein(log_eigs,log_real_eigs): 2.393
+torch.Size([64, 2500])
+Epoch [528/1000], Wasserstein(eigs,real_eigs): 2225.674, Wasserstein(log_eigs,log_real_eigs): 2.565
+torch.Size([64, 2500])
+Epoch [529/1000], Wasserstein(eigs,real_eigs): 2234.933, Wasserstein(log_eigs,log_real_eigs): 2.543
+torch.Size([64, 2500])
+Epoch [530/1000], Wasserstein(eigs,real_eigs): 603.028, Wasserstein(log_eigs,log_real_eigs): 1.958
+torch.Size([64, 2500])
+Epoch [531/1000], Wasserstein(eigs,real_eigs): 385.341, Wasserstein(log_eigs,log_real_eigs): 1.914
+torch.Size([64, 2500])
+Epoch [532/1000], Wasserstein(eigs,real_eigs): 293.864, Wasserstein(log_eigs,log_real_eigs): 1.707
+torch.Size([64, 2500])
+Epoch [533/1000], Wasserstein(eigs,real_eigs): 519.140, Wasserstein(log_eigs,log_real_eigs): 1.841
+torch.Size([64, 2500])
+Epoch [534/1000], Wasserstein(eigs,real_eigs): 1618.373, Wasserstein(log_eigs,log_real_eigs): 2.442
+torch.Size([64, 2500])
+Epoch [535/1000], Wasserstein(eigs,real_eigs): 795.679, Wasserstein(log_eigs,log_real_eigs): 2.078
+torch.Size([64, 2500])
+Epoch [536/1000], Wasserstein(eigs,real_eigs): 1220.403, Wasserstein(log_eigs,log_real_eigs): 2.281
+torch.Size([64, 2500])
+Epoch [537/1000], Wasserstein(eigs,real_eigs): 1084.942, Wasserstein(log_eigs,log_real_eigs): 2.221
+torch.Size([64, 2500])
+Epoch [538/1000], Wasserstein(eigs,real_eigs): 1119.977, Wasserstein(log_eigs,log_real_eigs): 2.276
+torch.Size([64, 2500])
+Epoch [539/1000], Wasserstein(eigs,real_eigs): 1365.008, Wasserstein(log_eigs,log_real_eigs): 2.431
+torch.Size([64, 2500])
+Epoch [540/1000], Wasserstein(eigs,real_eigs): 1774.660, Wasserstein(log_eigs,log_real_eigs): 2.413
+torch.Size([64, 2500])
+Epoch [541/1000], Wasserstein(eigs,real_eigs): 1235.839, Wasserstein(log_eigs,log_real_eigs): 2.422
+torch.Size([64, 2500])
+Epoch [542/1000], Wasserstein(eigs,real_eigs): 1005.800, Wasserstein(log_eigs,log_real_eigs): 2.245
+torch.Size([64, 2500])
+Epoch [543/1000], Wasserstein(eigs,real_eigs): 1402.513, Wasserstein(log_eigs,log_real_eigs): 2.436
+torch.Size([64, 2500])
+Epoch [544/1000], Wasserstein(eigs,real_eigs): 575.667, Wasserstein(log_eigs,log_real_eigs): 1.839
+torch.Size([64, 2500])
+Epoch [545/1000], Wasserstein(eigs,real_eigs): 599.303, Wasserstein(log_eigs,log_real_eigs): 2.042
+torch.Size([64, 2500])
+Epoch [546/1000], Wasserstein(eigs,real_eigs): 818.765, Wasserstein(log_eigs,log_real_eigs): 2.169
+torch.Size([64, 2500])
+Epoch [547/1000], Wasserstein(eigs,real_eigs): 367.196, Wasserstein(log_eigs,log_real_eigs): 1.836
+torch.Size([64, 2500])
+Epoch [548/1000], Wasserstein(eigs,real_eigs): 499.572, Wasserstein(log_eigs,log_real_eigs): 2.074
+torch.Size([64, 2500])
+Epoch [549/1000], Wasserstein(eigs,real_eigs): 575.745, Wasserstein(log_eigs,log_real_eigs): 2.012
+torch.Size([64, 2500])
+Epoch [550/1000], Wasserstein(eigs,real_eigs): 797.977, Wasserstein(log_eigs,log_real_eigs): 2.159
+torch.Size([64, 2500])
+Epoch [551/1000], Wasserstein(eigs,real_eigs): 375.720, Wasserstein(log_eigs,log_real_eigs): 1.815
+torch.Size([64, 2500])
+Epoch [552/1000], Wasserstein(eigs,real_eigs): 290.145, Wasserstein(log_eigs,log_real_eigs): 1.801

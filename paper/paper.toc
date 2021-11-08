@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
+\contentsline {section}{\numberline {2}Methods}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Optimization of Bergman Metrics}{2}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}A brief review of Bergman metrics}{2}{subsubsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.2}New Ensembles from Generative Adversarial Networks}{3}{subsection.2.2}% 
+\contentsline {section}{\numberline {3}K\" ahler metrics at fixed Picard Number}{3}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}$h^{11} = 10$}{3}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}$h^{11} = 16$}{3}{subsection.3.2}% 
+\contentsline {section}{\numberline {4}Interpolation and Extrapolation in Picard Number}{3}{section.4}% 
+\contentsline {section}{\numberline {5}Discussion}{3}{section.5}% 

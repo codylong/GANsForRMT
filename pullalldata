@@ -1,0 +1,2 @@
+rsync -av jhhalverson@login.discovery.neu.edu:s/KS4/data/* alldata/
+rsync -av jhhalverson@login.discovery.neu.edu:s/KS4/timescaling .
